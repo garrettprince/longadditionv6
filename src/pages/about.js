@@ -64,13 +64,8 @@ export default function About() {
             </Link>{" "}
             I&apos;m very approachable and can read most words.
           </p>
-          <p>Scroll for small goblin.</p>
         </div>
-        <img
-          src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1677184908/Long%20Addition/About%20Me%20Page/Troll_bmhsyg.png"
-          alt=""
-          className="opacity-20 "
-        />
+        
       </div>
     </motion.div>
   );
