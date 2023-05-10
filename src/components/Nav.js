@@ -128,7 +128,7 @@ function Nav() {
             <SubscribeButton />
 
             <button className=" sm:hidden" onClick={menuOpen}>
-              <Bars3Icon className="w-9 h-9 bg-transparent" />
+              <Bars3Icon className="w-9 h-9 bg-transparent ml-1" />
             </button>
             <div className="hidden sm:flex space-x-5 font-mono text-lg mt-1 mb-1 bg-transparent">
               <Link href="/about" className="bg-transparent">
