@@ -87,7 +87,7 @@ export default function ThingsToSayDuringSex() {
         initial={{ y: 6, opacity: 0 }}
         animate={{ y: -3, opacity: 1 }}
         transition={{ ease: "easeOut", duration: 0.2 }}
-        className=" ml-4 mr-3 text-lg sm:ml-8 font-normal"
+        className=" ml-4 mr-3 text-lg sm:ml-8"
       >
         <p id="paragraph" className="mb-4">
           <span className="font-bold">

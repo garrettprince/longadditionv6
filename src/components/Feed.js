@@ -153,7 +153,7 @@ function Feed({ selected }) {
     },
     {
       // use this when newsletter is live, every 6-8 posts
-      // type: "newsletterCtaLarge1",
+      // type: "newsletterCtaLarge2",
       // membership: false,
     },
     {

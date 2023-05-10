@@ -10,12 +10,17 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
+    "@stripe/stripe-js": "^1.11.0",
+    "@supabase/supabase-js": "^2.7.1",
     "formik": "^2.2.9",
     "framer-motion": "^10.12.9",
     "next": "13.4.1",
+    "query-string": "^6.13.8",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-rewards": "^2.0.4"
+    "react-query": "^3.39.3",
+    "react-rewards": "^2.0.4",
+    "stripe": "^8.132.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
