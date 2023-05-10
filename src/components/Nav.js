@@ -74,13 +74,6 @@ function Nav() {
               </Link>
             </motion.div>
           </div>
-
-          {/* Maybe add an image or gif for the menu here, can I make it change every time you open it? */}
-          {/* <img
-            className="fixed bottom-[-6rem] h-96"
-            alt=""
-            src="/assets/brand/smokingkid.png"
-          /> */}
         </div>
       )}
 

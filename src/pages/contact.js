@@ -29,7 +29,7 @@ export default function Contact() {
         <ContactGreetInterval />
       </div>
 
-      <div className="flex flex-col text-center space-y-8 text-2xl mx-auto">
+      <div className="flex flex-col text-center space-y-10 text-3xl mx-auto">
         <Link
           href="https://www.instagram.com/garrettjprince"
           className="font-mono"

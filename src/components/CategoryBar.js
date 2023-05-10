@@ -7,7 +7,7 @@ function CategoryBar({ selected, setSelected }) {
         onClick={() => setSelected("latest")}
         className={`${
           selected === "latest"
-            ? "rotate-270 transition-all duration-100 scale-105 bg-white rounded-md px-1 pt-[.12rem] text-black latest-shadow"
+            ? "rotate-270 transition-all duration-100 scale-105 bg-white rounded-md px-1 text-black latest-shadow"
             : "rotate-270 text-inactive duration-100 transition-all"
         }`}
       >
@@ -17,7 +17,7 @@ function CategoryBar({ selected, setSelected }) {
         onClick={() => setSelected("misc")}
         className={`${
           selected === "misc"
-            ? "rotate-270 mb-12 transition-all duration-100 scale-105 bg-misc rounded-md px-2 pt-[.12rem] mr-[.15rem] text-white misc-shadow"
+            ? "rotate-270 mb-12 transition-all duration-100 scale-105 bg-misc rounded-md px-2 mr-[.15rem] text-white misc-shadow"
             : "rotate-270 mb-10 text-inactive duration-100 transition-all"
         }`}
       >
@@ -27,7 +27,7 @@ function CategoryBar({ selected, setSelected }) {
         onClick={() => setSelected("travel")}
         className={`${
           selected === "travel"
-            ? "rotate-270 mb-12 transition-all duration-100 scale-105 bg-travel travel-shadow rounded-md  px-2 pt-[.15rem] text-white"
+            ? "rotate-270 mb-12 transition-all duration-100 scale-105 bg-travel travel-shadow rounded-md  px-2  text-white"
             : "rotate-270 mb-14 text-inactive duration-100 transition-all"
         }`}
       >
@@ -37,7 +37,7 @@ function CategoryBar({ selected, setSelected }) {
         onClick={() => setSelected("tech")}
         className={`${
           selected === "tech"
-            ? "rotate-270 mb-12 transition-all duration-100 scale-105 bg-tech tech-shadow rounded-md px-2 pt-[.12rem] mr-[.15rem] text-white"
+            ? "rotate-270 mb-12 transition-all duration-100 scale-105 bg-tech tech-shadow rounded-md px-2  mr-[.15rem] text-white"
             : "rotate-270 mb-12 text-inactive duration-100 transition-all"
         }`}
       >
@@ -47,7 +47,7 @@ function CategoryBar({ selected, setSelected }) {
         onClick={() => setSelected("audio")}
         className={`${
           selected === "audio"
-            ? "rotate-270 mb-12 transition-all duration-100 scale-105 bg-audio audio-shadow rounded-md px-2 pt-[.15rem] text-black"
+            ? "rotate-270 mb-12 transition-all duration-100 scale-105 bg-audio audio-shadow rounded-md px-2  text-black"
             : "rotate-270 mb-14 text-inactive duration-100 transition-all"
         }`}
       >
@@ -58,7 +58,7 @@ function CategoryBar({ selected, setSelected }) {
           onClick={() => setSelected("visual")}
           className={`${
             selected === "visual"
-              ? "rotate-270 mb-12 transition-all duration-100 scale-105 bg-visual visual-shadow rounded-md px-2 pt-[.15rem] text-white"
+              ? "rotate-270 mb-12 transition-all duration-100 scale-105 bg-visual visual-shadow rounded-md px-2  text-white"
               : "rotate-270 mb-12 text-inactive duration-100 transition-all"
           }`}
         >
@@ -68,7 +68,7 @@ function CategoryBar({ selected, setSelected }) {
           onClick={() => setSelected("health")}
           className={`${
             selected === "health"
-              ? "rotate-270 mb-12 mt-4 transition-all duration-100 scale-105 bg-health health-shadow rounded-md px-2 pt-[.15rem] text-black"
+              ? "rotate-270 mb-12 mt-4 transition-all duration-100 scale-105 bg-health health-shadow rounded-md px-2  text-black"
               : "rotate-270 mb-14 text-inactive duration-100 transition-all"
           }`}
         >
