@@ -2,7 +2,7 @@ import React from "react";
 
 function CategoryBar({ selected, setSelected }) {
   return (
-    <div className="fixed ml-[-.3rem] flex flex-col font-mono text-sm sm:text-md min-w-[4.7rem] h-64 mt-24 space-y-15">
+    <div className="fixed ml-[-.3rem] flex flex-col font-mono text-sm sm:text-md min-w-[4.7rem] h-64 mt-[5.5rem] space-y-15">
       <button
         onClick={() => setSelected("latest")}
         className={`${

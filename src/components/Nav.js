@@ -35,9 +35,9 @@ function Nav() {
   return (
     <div className="fixed top-0 z-50 max-w-2xl w-full bg-transparent backdrop-blur-[10px] backdrop-filter border-b border-zinc-900/20">
       {menu && (
-        <div className="bg-transparent fixed top-0 z-50 w-full h-full ">
+        <div className="bg-transparent fixed top-[-8px] z-50 w-full h-full ">
           <div className="h-screen">
-            <motion.div className="flex bg-black items-center justify-between mx-5 my-2 sm:mx-6 sm:my-3">
+            <motion.div className="flex bg-black items-center justify-between mx-5 pt-2 my-2 sm:mx-6 sm:my-3">
               <Link href="/" onClick={menuClose}>
                 <img
                   src="/assets/brand/logowhiteupdated.png"
