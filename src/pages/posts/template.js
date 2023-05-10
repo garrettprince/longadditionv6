@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import Thumbnail from "../../lib/components/Thumbnail";
+import Thumbnail from "/src/components/Thumbnail";
 import { motion } from "framer-motion";
 import { useReward } from "react-rewards";
 import Link from "next/link";

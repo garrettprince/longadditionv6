@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
 import { useReward } from "react-rewards";
-import ArticleRec from "../../../lib/components/ArticleRec";
 
 export default function FishbowlEffect() {
   const [copied, setCopied] = useState(false);
