@@ -1,3 +1,80 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+
+  
+}
+
+* {
+  background-color: black;
+  color: white;
+}
+
+.title-shadow {
+  text-shadow: 5px 5px 1px black, 5px 5px 1px black, 5px 5px 1px black,
+    4px 4px 1px black, 4px 4px 1px black, 4px 4px 1px black, 3px 3px 1px black,
+    3px 3px 1px black, 3px 3px 1px black, 2px 2px 1px black, 2px 2px 1px black,
+    2px 2px 1px black, 1px 1px 1px black, 1px 1px 1px black, 1px 1px 1px black;
+}
+
+.subscribe-shadow {
+  filter: drop-shadow(1px 1px 0px #830095) drop-shadow(1px 1px 0px #830095)
+    drop-shadow(1px 1px 0px #830095) drop-shadow(1px 1px 0px #830095)
+    drop-shadow(1px 1px 0px #830095);
+}
+
+.latest-shadow {
+  filter: drop-shadow(-1px 1px 0px #adadad) drop-shadow(-1px 1px 0px #adadad)
+    drop-shadow(-1px 1px 0px #adadad) drop-shadow(-1px 1px 0px #adadad);
+}
+
+.misc-shadow {
+  filter: drop-shadow(-1px 1px 0px #023d86) drop-shadow(-1px 1px 0px #023d86)
+    drop-shadow(-1px 1px 0px #023d86) drop-shadow(-1px 1px 0px #023d86);
+}
+
+.travel-shadow {
+  filter: drop-shadow(-1px 1px 0px #2a0076) drop-shadow(-1px 1px 0px #2a0076)
+    drop-shadow(-1px 1px 0px #2a0076) drop-shadow(-1px 1px 0px #2a0076);
+}
+
+.tech-shadow {
+  filter: drop-shadow(-1px 1px 0px #a84e00) drop-shadow(-1px 1px 0px #a84e00)
+    drop-shadow(-1px 1px 0px #a84e00) drop-shadow(-1px 1px 0px #a84e00);
+}
+
+.audio-shadow {
+  filter: drop-shadow(-1px 1px 0px #1e9f00) drop-shadow(-1px 1px 0px #1e9f00)
+    drop-shadow(-1px 1px 0px #1e9f00) drop-shadow(-1px 1px 0px #1e9f00);
+}
+
+.visual-shadow {
+  filter: drop-shadow(-1px 1px 0px #8e0000) drop-shadow(-1px 1px 0px #8e0000)
+    drop-shadow(-1px 1px 0px #8e0000) drop-shadow(-1px 1px 0px #8e0000);
+}
+
+.health-shadow {
+  filter: drop-shadow(-1px 1px 0px #c1c14d) drop-shadow(-1px 1px 0px #c1c14d)
+    drop-shadow(-1px 1px 0px #c1c14d) drop-shadow(-1px 1px 0px #c1c14d);
+}
+
+.subscribe-word-shadow {
+  color: white;
+  text-shadow: 0.5px 0.5px 0px white;
+}
+
+.zinc-900-shadow {
+  filter: drop-shadow(1px 1px 0px #830095) drop-shadow(1px 1px 0px #830095)
+    drop-shadow(1px 1px 0px #830095) drop-shadow(1px 1px 0px #830095)
+    drop-shadow(1px 1px 0px #830095) drop-shadow(1px 1px 0px #830095);
+}
+
+.space-y-15 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(3.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(3.75rem * var(--tw-space-y-reverse));
+}
+
+
