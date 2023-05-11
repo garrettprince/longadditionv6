@@ -8,7 +8,7 @@ function CategoryBar({ selected, setSelected }) {
         className={`${
           selected === "latest"
             ? "rotate-270 transition-all duration-100 scale-105 bg-white rounded-md px-1 text-black latest-shadow py-[.1rem]"
-            : "rotate-270 text-inactive duration-100 transition-all"
+            : "rotate-270 text-inactive duration-100 transition-all text-xs"
         }`}
       >
         LATEST
@@ -18,7 +18,7 @@ function CategoryBar({ selected, setSelected }) {
         className={`${
           selected === "misc"
             ? "rotate-270 mb-12 transition-all duration-100 scale-105 bg-misc rounded-md px-2 mr-[.15rem] py-[.1rem] text-white misc-shadow"
-            : "rotate-270 mb-10 text-inactive duration-100 transition-all"
+            : "rotate-270 mb-10 text-inactive duration-100 transition-all text-xs"
         }`}
       >
         MISC
@@ -28,7 +28,7 @@ function CategoryBar({ selected, setSelected }) {
         className={`${
           selected === "travel"
             ? "rotate-270 mb-12 transition-all duration-100 scale-105 bg-travel travel-shadow rounded-md  px-2 py-[.1rem] text-white"
-            : "rotate-270 mb-14 text-inactive duration-100 transition-all"
+            : "rotate-270 mb-14 text-inactive duration-100 transition-all text-xs"
         }`}
       >
         TRAVEL
@@ -38,7 +38,7 @@ function CategoryBar({ selected, setSelected }) {
         className={`${
           selected === "tech"
             ? "rotate-270 mb-12 transition-all duration-100 scale-105 bg-tech tech-shadow rounded-md px-2 py-[.1rem] mr-[.15rem] text-white"
-            : "rotate-270 mb-12 text-inactive duration-100 transition-all"
+            : "rotate-270 mb-12 text-inactive duration-100 transition-all text-xs"
         }`}
       >
         TECH
@@ -48,7 +48,7 @@ function CategoryBar({ selected, setSelected }) {
         className={`${
           selected === "audio"
             ? "rotate-270 mb-12 transition-all duration-100 scale-105 bg-audio audio-shadow rounded-md px-2 py-[.1rem] text-black"
-            : "rotate-270 mb-14 text-inactive duration-100 transition-all"
+            : "rotate-270 mb-14 text-inactive duration-100 transition-all text-xs"
         }`}
       >
         AUDIO
@@ -59,7 +59,7 @@ function CategoryBar({ selected, setSelected }) {
           className={`${
             selected === "visual"
               ? "rotate-270 mb-12 transition-all duration-100 scale-105 bg-visual visual-shadow rounded-md px-2 py-[.1rem] text-white"
-              : "rotate-270 mb-12 text-inactive duration-100 transition-all"
+              : "rotate-270 mb-12 text-inactive duration-100 transition-all text-xs"
           }`}
         >
           VISUAL
@@ -69,7 +69,7 @@ function CategoryBar({ selected, setSelected }) {
           className={`${
             selected === "health"
               ? "rotate-270 mb-12 mt-4 transition-all duration-100 scale-105 bg-health health-shadow rounded-md px-2 py-[.1rem] text-black"
-              : "rotate-270 mb-14 text-inactive duration-100 transition-all"
+              : "rotate-270 mb-14 text-inactive duration-100 transition-all text-xs"
           }`}
         >
           HEALTH

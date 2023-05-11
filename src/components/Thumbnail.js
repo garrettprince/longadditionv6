@@ -61,8 +61,7 @@ function Thumbnail({
                   {title}
                 </span>
               </h1>
-              {/* <PremiumIconLeft premium={premium} /> */}
-              <div className="flex flex-col justify-start bg-transparent text-sm">
+              <div className="flex flex-col justify-start bg-transparent text-xs space-y-1">
                 <p className="bg-transparent mt-2 text-inactive font-mono ">
                   {date}
                 </p>
@@ -138,8 +137,8 @@ function Thumbnail({
               </h1>
               {/* Figure out why the code below doesn't work for denoting a PREMIUM article */}
               {/* <PremiumIconRight premium={premium} /> */}
-              <div className="flex flex-col justify-end bg-transparent text-sm">
-                <p className="mt-2 bg-transparent text-inactive font-mono">
+              <div className="flex flex-col justify-end bg-transparent text-xs space-y-1">
+                <p className="mt-2 bg-transparent text-inactive font-mono ">
                   {date}
                 </p>
                 <p className="bg-transparent text-inactive font-mono">

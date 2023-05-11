@@ -98,10 +98,10 @@ export default function MixChannelsYoutube() {
           of the core concepts of web development sink in with repetition and
           real world examples. All of this to say, for better or for worse, I
           spent a lot of time on YouTube researching answers to my coding
-          questions. Inevitably, “the algorithm”, a recommendations engine based
-          on your view history (and several other factors), would suggest
-          something new for me to watch on the sidebar. And then another. And
-          another.
+          questions. Inevitably, &quot;the algorithm&quot;, a recommendations
+          engine based on your view history (and several other factors), would
+          suggest something new for me to watch on the sidebar. And then
+          another. And another.
         </p>
         <p id="paragraph" className="mb-4">
           My swan dive into the recommendation rabbit hole starts with a search
