@@ -55,9 +55,9 @@ function Nav() {
               transition={{ ease: "easeOut", duration: 0.2 }}
               className="flex flex-col font-mono text-3xl mt-16 space-y-10"
             >
-              <Link href="/" onClick={menuClose}>
+              {/* <Link href="/" onClick={menuClose}>
                 <p className="flex justify-center">ACCOUNT</p>
-              </Link>
+              </Link> */}
               <Link href="/about" onClick={menuClose}>
                 <p className="flex justify-center">ABOUT</p>
               </Link>
@@ -118,7 +118,7 @@ function Nav() {
               </form>
             )} */}
             {/* Action button for subscriber functionality below */}
-            <SubscribeButton />
+            {/* <SubscribeButton /> */}
 
             <button className=" sm:hidden" onClick={menuOpen}>
               <Bars3Icon className="w-9 h-9 bg-transparent ml-1" />

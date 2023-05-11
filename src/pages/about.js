@@ -58,7 +58,7 @@ export default function About() {
             Reach out to me{" "}
             <Link
               href="/contact"
-              className="border-b-[3px] pb-[.1rem] border-cta cursor-pointer bg-transparent"
+              className="pink-underline"
             >
               via the Contact page.
             </Link>{" "}

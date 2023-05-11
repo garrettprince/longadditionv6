@@ -35,7 +35,7 @@ function Feed({ selected }) {
       photo:
         "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1680049461/Long%20Addition/Posts/I%20Made%20A%20Madlib/thumbnailraised_j068qn.png",
       marginBottom: "mb-20",
-      premium: true,
+      premium: false,
     },
     // {
     //   type: "newsletterCtaLarge2",
@@ -169,7 +169,7 @@ function Feed({ selected }) {
       photo:
         "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1680712453/Long%20Addition/Posts/Long%20Addition%20Site%20Build%20Pt.%201:%20I%20Don%27t%20Know%20What%20I%27m%20Doing/thumbnail_tkabhr.png",
       marginBottom: "mb-20",
-      premium: true,
+      premium: false,
     },
     {
       title: "The Fishbowl Effect",
@@ -184,7 +184,7 @@ function Feed({ selected }) {
       photo:
         "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679812065/Long%20Addition/Posts/Losing%20Money%20In%20Australia/collageraised_w9snh3.png",
       marginBottom: "mb-20",
-      premium: true,
+      premium: false,
     },
     {
       title: "Template Check",

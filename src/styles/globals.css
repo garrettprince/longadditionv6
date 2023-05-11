@@ -98,3 +98,19 @@
   margin-top: calc(3.75rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(3.75rem * var(--tw-space-y-reverse));
 }
+
+.pink-underline {
+    border-bottom-width: 2.5px;
+    padding-bottom: .0rem;
+    border-color: #830095;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* .pink-underline {
+    border-bottom-width: 2.5px;
+    padding-bottom: .0rem;
+    border-color: rgb(255 0 114);
+    background-color: transparent;
+    cursor: pointer;
+} */
