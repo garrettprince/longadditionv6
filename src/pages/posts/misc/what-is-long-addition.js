@@ -68,7 +68,7 @@ export default function WhatIsLongAddition() {
           <div>
             <p className="text-sm font-mono text-inactive">BY GARRETT PRINCE</p>
             <p className="text-sm bg-transparent text-inactive font-mono ">
-              02.23.23
+              05.11.23
             </p>
           </div>
           <div>
@@ -76,7 +76,7 @@ export default function WhatIsLongAddition() {
               MISC
             </p>
             <p className="text-sm bg-transparent text-inactive font-mono text-right">
-              15 MIN
+              5 MIN
             </p>
           </div>
         </motion.div>
@@ -88,95 +88,104 @@ export default function WhatIsLongAddition() {
         className=" ml-4 mr-3 text-lg sm:ml-8"
       >
         <p id="paragraph" className="mb-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-          explicabo fugiat qui recusandae accusantium quia autem facilis
-          pariatur enim! Sed magni minima sequi nisi nulla optio non quod
-          debitis ipsum.
+          In early January of this year, I sat down on a stationary bike for my
+          daily cardio. I’d been dealing with a nasty bout of Runner’s Knee and
+          pedaling became the voluntary poison I picked to maintain my sanity.
+          To my surprise, pedaling nowhere turned out to be quite tranquil. I
+          was never great at meditation but this felt as close as I was going to
+          get to momentary inner-peace. As an added benefit, this small activity
+          each day gave me time to think.
         </p>
         <p id="paragraph" className="mb-4">
-          <span className="">Lorem</span> ipsum dolor sit amet consectetur
-          adipisicing elit. Atque, explicabo fugiat qui recusandae accusantium
-          quia autem facilis pariatur enim! Sed magni minima sequi nisi nulla
-          optio non quod debitis ipsum.
+          I thought about what I would eat immediately after the workout.
+          January seemed like a natural time to reevaluate and realign so I
+          thought about my plans for the year. I thought about my career growth,
+          or rather, lack thereof. I thought about food again. Ultimately, by
+          the time my tailbone went numb with each stationary ride, my mind
+          drifted back to the same set of questions:
         </p>
         <p id="paragraph" className="mb-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-          explicabo fugiat qui recusandae accusantium quia autem facilis
-          pariatur enim! Sed magni minima sequi nisi nulla optio non quod
-          debitis ipsum.
+          How do I want to spend my time? Where do I see myself in one year? A
+          month? Should I keep growing or stay 6’3”? What does meaningful work
+          and creation mean to me? If I had the opportunity to do anything, what
+          would I do?
         </p>
-        <div className="mb-4 mt-10 ml-10 mr-14">
+        <div className="mb-4 my-10">
           <img
             alt=""
-            className="sm:h-64 mx-auto"
-            src="/assets/brand/garretttest.png"
+            className="w-40 sm:h-64 mx-auto"
+            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1683828728/Long%20Addition/Posts/What%20Is%20Long%20Addition/stationarybike_v2rbgs.png"
           />
           <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
-            FIG 1. A SAMPLE PICTURE{" "}
+            FIG 1. SHAVASANA{" "}
           </p>
         </div>
         <p id="paragraph" className="mb-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-          explicabo fugiat qui recusandae accusantium quia autem facilis
-          pariatur enim! Sed magni minima sequi nisi nulla optio non quod
-          debitis ipsum.
+          Over and over, I returned to these questions. Every mile, a new idea.
+          Every kilometer, 62% of an idea. I knew I needed answers for myself if
+          I was ever going to make the progress I wanted to, and over many
+          stationary bike sessions and the months that followed, I found them.
         </p>
+        <p id="paragraph" className="mb-6">
+          I now have two goals for the rest of my life:
+        </p>
+        <p id="sectionchange" className="mb-4 font-bold text-2xl">
+          1. Physically be where it&apos;s warm and sunny
+        </p>
+        <p id="sectionchange" className="mb-6 font-bold text-2xl">
+          2. Make things until I&apos;m dead
+        </p>
+
         <p id="paragraph" className="mb-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-          explicabo fugiat qui recusandae accusantium quia autem facilis
-          pariatur enim! Sed magni minima sequi nisi nulla optio non quod
-          debitis ipsum.
+          I haven’t yet learned how to harness and control the weather (bigger
+          kite with bigger key?), so it looks like traveling is the most
+          realistic route in achieving goal number one. Check. And while
+          &quot;making things until I’m dead&quot; may sound a bit nebulous on
+          the surface, it’s as clear as day to me.
         </p>
+
         <p id="paragraph" className="mb-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-          explicabo fugiat qui recusandae accusantium quia autem facilis
-          pariatur enim! Sed magni minima sequi nisi nulla optio non quod
-          debitis ipsum.
+          I’ve been working on this site. That’s a thing. I’ve been writing a
+          ton. Definitely a thing. I made some music. Those are things. I might
+          direct a claymation film. I probably won’t, but I{" "}
+          <span className="italic">could</span> and that would be a thing too.
+          Why not include them all in one place?
         </p>
-        <h2
-          id="pullquote"
-          className="mb-11 mt-10 text-3xl font-bold text-center mr-5"
-        >
-          This is a <span className=" ">pullquote</span> with multiple lines and
-          even more text
-        </h2>
-        <p id="paragraph" className="mb-4">
-          Lorem ipsum{" "}
-          <Link
-            href="/"
-            className="border-b-[3px] border-misc cursor-pointer bg-transparent pb-[.1rem]"
-          >
-            dolor
-          </Link>{" "}
-          sit amet consectetur adipisicing elit. Atque, explicabo fugiat qui
-          recusandae accusantium quia autem facilis pariatur enim! Sed magni
-          minima sequi nisi nulla optio non quod debitis ipsum.
-        </p>
-        <div
-          id="dot-divider"
-          className="mr-5 pt-8 pb-12 flex mx-auto justify-center"
-        >
-          <div className="h-2 w-2 rounded-full bg-inactive mx-1"></div>
-          <div className="h-2 w-2 rounded-full bg-inactive mx-1"></div>
-          <div className="h-2 w-2 rounded-full bg-inactive mx-1"></div>
+        <div className="mb-4 my-10">
+          <img
+            alt=""
+            className="w-44 sm:h-64 mx-auto"
+            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1683828730/Long%20Addition/Posts/What%20Is%20Long%20Addition/makingthings_ofb3cr.png"
+          />
+          <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
+            FIG 2. MAKING THINGS{" "}
+          </p>
         </div>
+
         <p id="paragraph" className="mb-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-          explicabo fugiat qui recusandae accusantium quia autem facilis
-          pariatur enim! Sed magni minima sequi nisi nulla optio non quod
-          debitis ipsum.
+          Long Addition is the home for documenting goal number 2 and to take it
+          a step further, I’ve separated each creation into one of six
+          categories: Audio, Tech, Travel, Health, Visual, and Misc. You may
+          have seen them on the sidebar of the homepage. If you didn’t, my
+          website is broken. Either way, these are the topics that interest me
+          and what I’ll be diving into further on a regular basis.
         </p>
-        <p id="sectionchange" className="mb-4 mt-12 font-bold text-2xl">
-          New Section
+        <p id="paragraph" className="mb-4">
+          Long Addition is my ADHD personified. Long Addition is the Bodies
+          Exhibit but with my limbs and clothes and hair still attached. Long
+          Addition is me at the Applebee’s bar leaning over to the guy next to
+          me and saying &quot;Hey, so I’ve been thinking about human skin
+          wings.&quot; and then the guy gets up and leaves and I’m not allowed
+          back in any Applebee’s on the Western seaboard. Long Addition is me
+          staring at a painting and saying &quot;Okay, I definitely see it
+          now&quot;. Long Addition is my penpal.
         </p>
         <p id="final-paragraph" className="mb-20">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
-          similique alias vel tempore, iure quod delectus recusandae minus,
-          deserunt in hic. Cupiditate deserunt illum, laborum ab assumenda
-          voluptas. Sit, itaque.
+          Long Addition is the bet I’m making on myself. Thanks for checking it
+          out. I hope it adds some value for you in the long run.
           <button
             disabled
-            className="ml-2 h-3 w-3 rounded-full bg-inactive"
+            className="ml-2 h-3 w-3 rounded-full bg-misc"
           ></button>
         </p>
         <div className="flex mt-10 mb-5 justify-center space-x-2 mr-5">

@@ -8,20 +8,21 @@ function Feed({ selected }) {
     // NEWEST UP TOP //
     ///////////////////
     {
-      title: "What Is Long Addition?",
+      title: "Advice For People Like Me: Take More Photos",
       type: "photoRight",
       link: "/posts/misc/what-is-long-addition",
-      titleSize: "text-4xl",
+      titleSize: "text-3xl",
       date: "02.04.23",
-      category: "misc",
+      category: "visual",
       duration: "5 min",
       series: false,
       seriesTitle: "",
       photo:
-        "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1683327434/Long%20Addition/Posts/What%20Is%20Long%20Addition/thumbnailnew_d5ce8x.png",
+        "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1683823345/Long%20Addition/Posts/Advice%20For%20People%20Like%20Me%20-%20Take%20More%20Photos/thumbnail_yjaeao.png",
       marginBottom: "mb-20",
       premium: false,
     },
+
     {
       title: "My Timeline Theory",
       type: "photoRight",
@@ -33,7 +34,7 @@ function Feed({ selected }) {
       series: true,
       seriesTitle: "the theory series",
       photo:
-        "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1680049461/Long%20Addition/Posts/I%20Made%20A%20Madlib/thumbnailraised_j068qn.png",
+        "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1683826432/Long%20Addition/Posts/My%20Timeline%20Theory/thumbnail_kfs1og.png",
       marginBottom: "mb-20",
       premium: false,
     },
@@ -198,6 +199,21 @@ function Feed({ selected }) {
       seriesTitle: "",
       photo:
         "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1677734937/Long%20Addition/Posts/Long%20Addition%20Site%20Build%20Pt.%201:%20I%20Don%27t%20Know%20What%20I%27m%20Doing/orangemac_bwp8xa.png",
+      marginBottom: "mb-20",
+      premium: false,
+    },
+    {
+      title: "What Is Long Addition?",
+      type: "photoRight",
+      link: "/posts/misc/what-is-long-addition",
+      titleSize: "text-4xl",
+      date: "05.11.23",
+      category: "misc",
+      duration: "5 min",
+      series: false,
+      seriesTitle: "",
+      photo:
+        "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1683327434/Long%20Addition/Posts/What%20Is%20Long%20Addition/thumbnailnew_d5ce8x.png",
       marginBottom: "mb-20",
       premium: false,
     },

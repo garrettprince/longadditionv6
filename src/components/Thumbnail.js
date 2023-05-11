@@ -62,7 +62,7 @@ function Thumbnail({
                 </span>
               </h1>
               <div className="flex flex-col justify-start bg-transparent text-sm">
-                <p className="bg-transparent mt-2 text-inactive font-mono ">
+                <p className="bg-transparent mt-1 text-inactive font-mono ">
                   {date}
                 </p>
                 <p className="bg-transparent text-inactive font-mono">
@@ -137,7 +137,7 @@ function Thumbnail({
               </h1>
 
               <div className="flex flex-col justify-end bg-transparent text-sm">
-                <p className="mt-2 bg-transparent text-inactive font-mono ">
+                <p className="mt-1 bg-transparent text-inactive font-mono ">
                   {date}
                 </p>
                 <p className="bg-transparent text-inactive font-mono">
