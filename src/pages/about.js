@@ -38,34 +38,31 @@ export default function About() {
             circumnavigating the globe as a treasure hunter in search of{" "}
             <Link
               href="/posts/travel/king-peenty-red-rubies"
-              className="border-b-[3px] pb-[.1rem] border-cta cursor-pointer bg-transparent"
+              className="pink-underline"
             >
               King Peenty&apos;s Big Red Rubies.
             </Link>{" "}
           </p>
           <p className="mb-4 bg-transparent">
             Long Addition is part dumping ground, part personal catalogue, and
-            part art installation. This site acts as the primary outlet for my personal philosophy of
-            making things until I&apos;m dead. I talk more about it{" "}
+            part art installation. This site acts as the primary outlet for my
+            personal philosophy of making things until I&apos;m dead. I talk
+            more about it{" "}
             <Link
               href="/posts/misc/what-is-long-addition"
-              className="border-b-[3px] pb-[.1rem] border-cta cursor-pointer bg-transparent"
+              className="pink-underline"
             >
               here.
             </Link>
           </p>
           <p className="mb-4 bg-transparent">
             Reach out to me{" "}
-            <Link
-              href="/contact"
-              className="pink-underline"
-            >
+            <Link href="/contact" className="pink-underline">
               via the Contact page.
             </Link>{" "}
             I&apos;m very approachable and can read most words.
           </p>
         </div>
-        
       </div>
     </motion.div>
   );

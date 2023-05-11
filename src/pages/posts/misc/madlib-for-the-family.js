@@ -105,7 +105,7 @@ export default function MadlibForTheFamily() {
           For the uninitiated,{" "}
           <Link
             href="https://www.madlibs.com/"
-            className="border-b-[3px] border-misc cursor-pointer bg-transparent pb-[.1rem]"
+            className="misc-underline"
           >
             Mad Libs
           </Link>{" "}

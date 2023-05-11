@@ -101,16 +101,14 @@
 
 .pink-underline {
     border-bottom-width: 2.5px;
-    padding-bottom: .0rem;
-    border-color: #830095;
+    border-color: rgb(255 0 114);
     background-color: transparent;
     cursor: pointer;
 }
 
-/* .pink-underline {
+.misc-underline {
     border-bottom-width: 2.5px;
-    padding-bottom: .0rem;
-    border-color: rgb(255 0 114);
+    border-color: #0072FF;
     background-color: transparent;
     cursor: pointer;
-} */
+}
