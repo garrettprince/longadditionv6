@@ -70,7 +70,7 @@ export default function ScoringJavascriptFrameworks() {
           <div>
             <p className="text-sm font-mono text-inactive">BY GARRETT PRINCE</p>
             <p className="text-sm bg-transparent text-inactive font-mono ">
-              02.23.23
+              05.11.23
             </p>
           </div>
           <div>
@@ -78,7 +78,7 @@ export default function ScoringJavascriptFrameworks() {
               TECH
             </p>
             <p className="text-sm bg-transparent text-inactive font-mono text-right">
-              7 MIN
+              10 MIN
             </p>
           </div>
         </motion.div>

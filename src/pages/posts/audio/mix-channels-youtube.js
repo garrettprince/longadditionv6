@@ -70,7 +70,7 @@ export default function MixChannelsYoutube() {
           <div>
             <p className="text-sm font-mono text-inactive">BY GARRETT PRINCE</p>
             <p className="text-sm bg-transparent text-inactive font-mono ">
-              02.23.23
+              05.11.23
             </p>
           </div>
           <div>
