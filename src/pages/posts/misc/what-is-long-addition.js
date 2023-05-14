@@ -88,7 +88,7 @@ export default function WhatIsLongAddition() {
         className=" ml-4 mr-3 text-lg sm:ml-8"
       >
         <p id="paragraph" className="mb-4">
-          In early January of this year, I sat down on a stationary bike for my
+          In early January, I sat down on a stationary bike for my
           daily cardio. I’d been dealing with a nasty bout of Runner’s Knee and
           pedaling became the voluntary poison I picked to maintain my sanity.
           To my surprise, pedaling nowhere turned out to be quite tranquil. I
@@ -206,7 +206,7 @@ export default function WhatIsLongAddition() {
             className="cursor-pointer flex rounded-lg px-3 py-1 bg-zinc-800 justify-center items-center space-x-2"
           >
             <p className="font-mono text-sm bg-transparent pt-[.15rem] w-44">
-              {!copied ? "COPY TO SHARE LINK" : "COPIED! YOU DID IT!"}
+              {!copied ? "CLICK TO COPY LINK" : "COPIED! YOU DID IT!"}
             </p>
           </button>
         </div>

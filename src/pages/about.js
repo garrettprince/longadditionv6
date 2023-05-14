@@ -35,13 +35,14 @@ export default function About() {
           <p className="mb-4 bg-transparent">
             I mostly write words, music, and software. In addition to my
             writing, I&apos;ve spent (and will continue to spend) my entire life
-            circumnavigating the globe as a treasure hunter in search of{" "}
-            <Link
+            circumnavigating the globe as a treasure hunter in search of King
+            Peenty&apos;s Big Red Rubies.
+            {/* <Link
               href="/posts/travel/king-peenty-red-rubies"
               className="pink-underline"
             >
               King Peenty&apos;s Big Red Rubies.
-            </Link>{" "}
+            </Link>{" "} */}
           </p>
           <p className="mb-4 bg-transparent">
             Long Addition is part dumping ground, part personal catalogue, and

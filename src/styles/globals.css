@@ -13,7 +13,7 @@
   }
 
   @font-face {
-    font-family: "Metro Sans";
+    font-family: "Metro Sans Bold";
     src: url("../../public/assets/fonts/metrosans-bold-webfont.ttf")
       format("truetype");
     font-weight: bold;

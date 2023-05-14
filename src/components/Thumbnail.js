@@ -57,7 +57,7 @@ function Thumbnail({
                     : `${"bg-transparent text-2xl sm:text-4xl"}`
                 }
               >
-                <span className="bg-transparent title-shadow pr-1">
+                <span className="bg-transparent font-title title-shadow pr-1">
                   {title}
                 </span>
               </h1>
@@ -131,7 +131,7 @@ function Thumbnail({
                     : `${"bg-transparent text-2xl sm:text-4xl"}`
                 }
               >
-                <span className="bg-transparent title-shadow pl-1">
+                <span className="bg-transparent font-title title-shadow pl-1">
                   {title}
                 </span>
               </h1>
