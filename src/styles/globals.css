@@ -13,10 +13,10 @@
   }
 
   @font-face {
-    font-family: "Metro Sans Bold";
+    font-family: "Metro Sans";
     src: url("../../public/assets/fonts/metrosans-bold-webfont.ttf")
       format("truetype");
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
   }
 
@@ -24,7 +24,7 @@
     font-family: "Metro Sans";
     src: url("../../public/assets/fonts/metrosans-regular-webfont.ttf")
       format("truetype");
-    font-weight: normal;
+    font-weight: regular;
     font-style: normal;
   }
 }

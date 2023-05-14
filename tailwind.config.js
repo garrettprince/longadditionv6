@@ -13,7 +13,6 @@ module.exports = {
       fontFamily: {
         sans: ["Metro Sans", "sans-serif"],
         mono: ["Tronica Mono", "monospace"],
-        title: ["Metro Sans Bold", "sans-serif"]
       },
       colors: {
         "cta-gradient-1": "#FF0049",
