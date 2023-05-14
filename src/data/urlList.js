@@ -2,7 +2,7 @@ export const urlList = [
   // "misc/madlib-for-the-family",
   "misc/what-is-long-addition",
   "travel/the-fishbowl-effect",
-  "visual/take-more-photos",
+  // "visual/take-more-photos",
   // "travel/king-peenty-red-rubies",
   // "visual/what-happened-to-crunchlings",
   "health/10-things-to-say-during-sex",

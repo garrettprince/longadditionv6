@@ -94,8 +94,8 @@ export default function ThingsToSayDuringSex() {
             Has your partner asked you to be more vocal during slippery season?
           </span>{" "}
           Can you only think of one or two things to say and they’re both the
-          same thing and it’s “oh yeah”? Have you tried out something new and it
-          didn’t roll off the tongue like you’d hoped?
+          same thing and it’s &quot;oh yeah&quot;? Have you tried out something
+          new and it didn’t roll off the tongue like you’d hoped?
         </p>
         <p id="paragraph" className="mb-4">
           If you answered yes or no to any of the above, read on. I’ve got your
@@ -143,14 +143,14 @@ export default function ThingsToSayDuringSex() {
           Which do you prefer? The sound of{" "}
           <Link
             href="https://youtu.be/blmiTe8wzAM"
-            className="border-b-[3px] border-health cursor-pointer bg-transparent pb-[.1rem]"
+            className="health-underline"
           >
             a cartoon slide
           </Link>{" "}
           or{" "}
           <Link
             href="https://youtu.be/dUol19S7EaY"
-            className="border-b-[3px] border-health cursor-pointer bg-transparent pb-[.1rem]"
+            className="health-underline"
           >
             a cartoon piano crash
           </Link>
@@ -197,14 +197,11 @@ export default function ThingsToSayDuringSex() {
           theory?&quot;
         </p>
         <p id="paragraph" className="mb-4">
-          When your partner inevitably says “Yes, you talk about it all the
-          time.” respond defensively with “Okay, explain it to me then.” Correct
-          them immediately when any minute detail is off. If you don’t have a
-          well constructed theory on hand, feel free to use{" "}
-          <Link
-            href="/"
-            className="border-b-[3px] border-health cursor-pointer bg-transparent pb-[.1rem]"
-          >
+          When your partner inevitably says &quot;Yes, you talk about it all the
+          time.&quot; respond defensively with &quot;Okay, explain it to me
+          then.&quot; Correct them immediately when any minute detail is off. If
+          you don’t have a well constructed theory on hand, feel free to use{" "}
+          <Link href="/" className="">
             one of mine.
           </Link>
         </p>
@@ -255,10 +252,11 @@ export default function ThingsToSayDuringSex() {
 
         <p id="final-paragraph" className="mb-4">
           If you happen to use any of these, let me know how it goes. If you
-          happen to use all ten in a single outing, send me an email titled “My
-          Name Is (your name there) And I Did The Thing’. I’ll send you a
-          complimentary* “I said all 10 things from a dumb thing Garrett wrote
-          and I’ll I got was this tee shirt and now I’m lonely.” tee shirt.
+          happen to use all ten in a single outing, send me an email titled
+          &quot;My Name Is (your name there) And I Did The Thing&quot;. I’ll
+          send you a complimentary* &quot;I said all 10 things from a dumb thing
+          Garrett wrote and I’ll I got was this tee shirt and now I’m
+          lonely.&quot; tee shirt.
           <button
             disabled
             className="ml-2 h-3 w-3 rounded-full bg-health"
@@ -266,7 +264,8 @@ export default function ThingsToSayDuringSex() {
         </p>
 
         <p className="mb-20 text-sm">
-          *It’s not complimentary and you’ll be invoiced for parts and labor
+          *It’s not complimentary and you’ll be invoiced for parts, labor, and
+          my inflated cost of living.
         </p>
 
         <div className="flex mt-10 mb-5 justify-center space-x-2 mr-5">
@@ -287,7 +286,7 @@ export default function ThingsToSayDuringSex() {
             className="cursor-pointer flex rounded-lg px-3 py-1 bg-zinc-800 justify-center items-center space-x-2"
           >
             <p className="font-mono text-sm bg-transparent pt-[.15rem] w-44">
-              {!copied ? "COPY TO SHARE LINK" : "COPIED! YOU DID IT!"}
+              {!copied ? "CLICK TO COPY LINK" : "COPIED! YOU DID IT!"}
             </p>
           </button>
         </div>

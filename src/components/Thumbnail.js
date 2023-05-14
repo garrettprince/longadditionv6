@@ -281,6 +281,24 @@ function Thumbnail({
         </motion.div>
       )}
 
+      {/* ////////////////////// */}
+      {/* ///// PLACEHOLDER //// */}
+      {/* ////////////////////// */}
+      {type === "placeholder" && (
+        <motion.div
+          initial={{ y: 6, opacity: 0 }}
+          animate={{ y: -3, opacity: 1 }}
+          transition={{ ease: "easeOut", duration: 0.2 }}
+          className="sm:ml-10 sm:mb-20 mb-16 w-[18.4rem]"
+        >
+          <div className="flex justify-center py-3 rounded-2xl bg-zinc-900">
+            <p className=" bg-transparent font-bold text-xl sm:text-2xl font-mono text-zinc-500 text-center w-full">
+              MORE COMING SOON
+            </p>
+          </div>
+        </motion.div>
+      )}
+
       {type === "message" && (
         <motion.div
           initial={{ y: 6, opacity: 0 }}

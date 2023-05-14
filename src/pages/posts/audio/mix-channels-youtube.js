@@ -109,17 +109,17 @@ export default function MixChannelsYoutube() {
           with me reading five year old comments on{" "}
           <Link
             href="https://www.youtube.com/watch?v=-WYYlRArn3g&ab_channel=MusicEntertainment"
-            className="border-b-[3px] border-audio cursor-pointer bg-transparent pb-[.1rem]"
+            className="audio-underline"
           >
             Prince’s 2007 Super Bowl Halftime Show.
           </Link>{" "}
           An hour after that, I’m chest deep in{" "}
           <Link
             href="https://www.youtube.com/watch?v=dj7gEkVjZvU&ab_channel=TheTheorizer"
-            className="border-b-[3px] border-audio cursor-pointer bg-transparent pb-[.1rem]"
+            className="audio-underline"
           >
             Shrek-iverse conspiracy theories.
-          </Link>
+          </Link>{" "}
           The algorithm giveth and the algorithm taketh away.
         </p>
         <p id="paragraph" className="mb-4">
@@ -129,80 +129,184 @@ export default function MixChannelsYoutube() {
           even relevant to the current content. That being said, once in a blue
           moon, it strikes gold.
         </p>
-        <div className="mb-4 mt-10 ml-10 mr-14">
-          <img
-            alt=""
-            className="sm:h-64 mx-auto"
-            src="/assets/brand/garretttest.png"
-          />
-          <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
-            FIG 1. A SAMPLE PICTURE{" "}
-          </p>
-        </div>
         <p id="paragraph" className="mb-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-          explicabo fugiat qui recusandae accusantium quia autem facilis
-          pariatur enim! Sed magni minima sequi nisi nulla optio non quod
-          debitis ipsum.
+          One night, as I began work on a new project, I was recommended the
+          eerily titled &quot;C Y B E R D R E A M&quot; to be played next.
+          Someone had photoshopped Bart Simpson as the T-1000(?) for the
+          thumbnail and I’m a rube so I clicked it.
         </p>
         <p id="paragraph" className="mb-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-          explicabo fugiat qui recusandae accusantium quia autem facilis
-          pariatur enim! Sed magni minima sequi nisi nulla optio non quod
-          debitis ipsum.
+          Plucky synth pads welcomed me with open arms. The pulsing bass line
+          felt like a mall massage chair delivering just the right amount of
+          pressure to my back meat. It didn’t take long for me to slide into
+          Cyber’s world. It was smooth and perfectly curated. It felt like my
+          ears had put on a robe. Cyber Dream delivered an hour long mix of
+          synth wave that felt complimentary to what I was doing, never
+          contradictory.
         </p>
         <p id="paragraph" className="mb-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-          explicabo fugiat qui recusandae accusantium quia autem facilis
-          pariatur enim! Sed magni minima sequi nisi nulla optio non quod
-          debitis ipsum.
+          I went back to the project I was working on and kept Cyber Dream on in
+          the background. An hour later, I played it back. An hour after that, I
+          looked for the repeat button. The mix was so unobtrusive and I needed
+          that while I studied, coded and put the concepts I was learning into
+          practice. It was comforting, but I knew I couldn’t listen to that same
+          mix forever, so I went looking for more.
         </p>
-        <h2
-          id="pullquote"
-          className="mb-11 mt-10 text-3xl font-bold text-center mr-5"
-        >
-          This is a <span className=" ">pullquote</span> with multiple lines and
-          even more text
-        </h2>
         <p id="paragraph" className="mb-4">
-          Lorem ipsum{" "}
-          <Link
-            href="/"
-            className="border-b-[3px] border-misc cursor-pointer bg-transparent pb-[.1rem]"
-          >
-            dolor
-          </Link>{" "}
-          sit amet consectetur adipisicing elit. Atque, explicabo fugiat qui
-          recusandae accusantium quia autem facilis pariatur enim! Sed magni
-          minima sequi nisi nulla optio non quod debitis ipsum.
+          There were days when I needed something more tame. Something with a
+          laidback feel. Less &quot;the year 2085&quot; and more &quot;camomile
+          tea&quot;. I found a few mixes for that. My siblings and I have a few
+          mixes we let play in the background when gaming online. There are even
+          some I listen to when completing mind-numbingly boring clerical work.
         </p>
-        <div
-          id="dot-divider"
-          className="mr-5 pt-8 pb-12 flex mx-auto justify-center"
-        >
-          <div className="h-2 w-2 rounded-full bg-inactive mx-1"></div>
-          <div className="h-2 w-2 rounded-full bg-inactive mx-1"></div>
-          <div className="h-2 w-2 rounded-full bg-inactive mx-1"></div>
-        </div>
         <p id="paragraph" className="mb-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-          explicabo fugiat qui recusandae accusantium quia autem facilis
-          pariatur enim! Sed magni minima sequi nisi nulla optio non quod
-          debitis ipsum.
+          I know a good portion of people that would look at these and think:
+          &quot;Why not just play something on Spotify? Why YouTube?&quot;
+          There’s just something about the algorithm that has queued up some
+          really winners for me, and that’s why I keep coming back. I’m also a
+          sucker for spending a few minutes in the comment section on most
+          visits to these mixes. I have an unhealthy fascination with people
+          pouring their hearts out under an early 2000’s rap rock performance.
+        </p>
+        <p id="paragraph" className="mb-4">
+          As a gift to you, here are a few of my favorites for all types of
+          moods:
         </p>
         <p id="sectionchange" className="mb-4 mt-12 font-bold text-2xl">
-          New Section
+          A more relaxed study mix
         </p>
-        <p id="final-paragraph" className="mb-20">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
-          similique alias vel tempore, iure quod delectus recusandae minus,
-          deserunt in hic. Cupiditate deserunt illum, laborum ab assumenda
-          voluptas. Sit, itaque.
+        <Link
+          href="https://www.youtube.com/watch?v=3jWRrafhO7M&t=6990s&ab_channel=CafeMusicBGMchannel"
+          className="audio-underline"
+        >
+          Studio Ghibli Cafe Bosa Nova Mix
+        </Link>
+        <br />
+        <Link
+          href="https://www.youtube.com/watch?v=9Q3_fB1LqV0&t=5372s&ab_channel=JohnOethGuitar"
+          className="audio-underline"
+        >
+          Final Fantasy Classical Guitar Collection
+        </Link>
+        <br />
+        <Link
+          href="https://www.youtube.com/watch?v=xZtVCGtLU9g&t=6290s&ab_channel=Falkenhayn"
+          className="audio-underline"
+        >
+          3 hours of relaxed Donkey Kong music
+        </Link>
+        <p id="sectionchange" className="mb-4 mt-12 font-bold text-2xl">
+          A more synth-y mix
+        </p>
+        <Link
+          href="https://www.youtube.com/watch?v=yhCuCqJbOVE&t=5857s&ab_channel=SmoothSounds"
+          className="audio-underline"
+        >
+          Cyber Dream (of course)
+        </Link>
+        <br />
+        <Link
+          href="https://www.youtube.com/watch?v=INSsZk-5Pco&t=3767s&ab_channel=SmoothSounds"
+          className="audio-underline"
+        >
+          Cyber Dream 2 (the sequel)
+        </Link>
+        <br />
+        <Link
+          href="https://www.youtube.com/watch?v=Hc_SEDzN23o&ab_channel=SoulSearchAndDestroy"
+          className="audio-underline"
+        >
+          Voyage 5
+        </Link>
+        <br />
+        <Link
+          href="https://www.youtube.com/watch?v=Nx3lzO7c3Ac&ab_channel=SoulSearchAndDestroy"
+          className="audio-underline"
+        >
+          The Final Frontier
+        </Link>
+        <br />
+        <Link
+          href="https://www.youtube.com/watch?v=Du501yIktJY&ab_channel=SoulSearchAndDestroy"
+          className="audio-underline"
+        >
+          Simulations 3
+        </Link>
+        <br />
+        <Link
+          href="https://www.youtube.com/watch?v=OvYeYtujzjQ&ab_channel=SoulSearchAndDestroy"
+          className="audio-underline"
+        >
+          Smolder
+        </Link>
+        <br />
+        <p id="sectionchange" className="mb-4 mt-12 font-bold text-2xl">
+          Something with a little more bounce
+        </p>
+        <Link
+          href="https://www.youtube.com/watch?v=W5opbWtFMuM&ab_channel=SmoothSounds"
+          className="audio-underline"
+        >
+          Trappin In Paradise 85
+        </Link>
+        <br />
+        <Link
+          href="https://www.youtube.com/watch?v=O2wTaUtmqXw&ab_channel=MelonGroove"
+          className="audio-underline"
+        >
+          Japanese City Pop Mixtape Vol. 11
+        </Link>
+        <br />
+        <Link
+          href="https://www.youtube.com/watch?v=YC7Nsv9Tc8M&ab_channel=SoulSearchAndDestroy"
+          className="audio-underline"
+        >
+          Fun Tonight
+        </Link>
+        <p id="sectionchange" className="mb-4 mt-12 font-bold text-2xl">
+          When I&apos;m feeling weird and I want to sit in that feeling for a
+          bit
+        </p>
+        <Link
+          href="https://www.youtube.com/watch?v=EKdHeNVzHcE&t=11s&ab_channel=Tanju"
+          className="audio-underline"
+        >
+          Midwest Emo Mix
+        </Link>
+        <br />
+        <Link
+          href="https://www.youtube.com/watch?v=CKAc3nYEatw&ab_channel=scrapper9000"
+          className="audio-underline mb-4"
+        >
+          Aquatic Ambience 10 Hours
+        </Link>
+        <br />
+
+        <p id="paragraph" className="mt-8">
+          And while they’re not technically the type of mix I’m referring to (a
+          collection of unedited songs strung together into a single video), any{" "}
+          <span className="italic">What’s Happening</span> mix by{" "}
+          <Link
+            href="https://www.youtube.com/@KEIFERGR33N/videos"
+            className="audio-underline"
+          >
+            Keiffer Gr33n
+          </Link>{" "}
+          is outstanding.
+        </p>
+        <p id="paragraph" className="mb-4 mt-4">
+          For those studying, learning, working, etc. in silence: I commend you.
+          You have reached singularity and will soon transcend this mortal
+          plane. For the rest of us, find something you can put on in the
+          background and finally finish making that video essay breaking down
+          the inner workings of Shrek Forever After. Lord knows we need it now
+          more than ever.
           <button
             disabled
-            className="ml-2 h-3 w-3 rounded-full bg-inactive"
+            className="ml-2 h-3 w-3 rounded-full bg-audio"
           ></button>
         </p>
+
         <div className="flex mt-10 mb-5 justify-center space-x-2 mr-5">
           <Link
             href="/contact"
@@ -221,7 +325,7 @@ export default function MixChannelsYoutube() {
             className="cursor-pointer flex rounded-lg px-3 py-1 bg-zinc-800 justify-center items-center space-x-2"
           >
             <p className="font-mono text-sm bg-transparent pt-[.15rem] w-44">
-              {!copied ? "COPY TO SHARE LINK" : "COPIED! YOU DID IT!"}
+              {!copied ? "CLICK TO COPY LINK" : "COPIED! YOU DID IT!"}
             </p>
           </button>
         </div>

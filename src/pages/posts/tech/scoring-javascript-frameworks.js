@@ -94,13 +94,13 @@ export default function ScoringJavascriptFrameworks() {
             Admit it. You’ve Bing’d “Javascript nudes” on at least two
             occasions.{" "}
           </span>
-          Once after the kids went to bed and you pounded Chardonnay out of your
+          Once after the kids went to bed and you pounded Chareau out of your
           Snoopy mug and the other on your work computer during the company
           downsizing all hands. Curiosity got the best of you. But the photos
           were… unimpressive. Vanilla, even.{" "}
           <span className="italic">There must be something more</span>, you
-          think, trying to fill another mug with Chardonnay but only getting
-          crumbs (I don’t know what Chardonnay is). There{" "}
+          think, trying to fill another mug with Chareau but only getting crumbs
+          (I don’t know what Chareau is). There{" "}
           <span className="italic">is</span> something more.
         </p>
         <div className="mb-4 mt-10 ml-10 mr-14">
@@ -110,7 +110,7 @@ export default function ScoringJavascriptFrameworks() {
             src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679809855/Long%20Addition/Posts/Scoring%205%20Javascript%20Frameworks%20By%20How%20Attracted%20I%20Am%20To%20Them/cookiesraised_bryq5z.png"
           />
           <p className="text-center text-inactive text-sm font-mono font-bold mt-5 mb-10">
-            FIG 1. CHARDONNAY(?){" "}
+            FIG 1. CHAREAU(?){" "}
           </p>
         </div>
         <p id="paragraph" className="mb-4">
@@ -148,10 +148,7 @@ export default function ScoringJavascriptFrameworks() {
           Javascript than something like JSX, so in theory, it should be easier
           to learn coming from the fundamentals. I worked with SvelteKit (prior
           to its 1.0 release) when building{" "}
-          <Link
-            href="https://www.montanahead.com"
-            className="border-b-[3px] border-tech cursor-pointer bg-transparent pb-[.1rem]"
-          >
+          <Link href="https://www.montanahead.com" className="tech-underline">
             a demo site for a band I&apos;m in
           </Link>{" "}
           and overall it was a pleasant experience. Building the site, that is.
@@ -162,10 +159,10 @@ export default function ScoringJavascriptFrameworks() {
           It&apos;s just me in the band.
         </p>
         <p id="paragraph" className="mb-4">
-          In addition, the built in transitions were nice, ‘if’ blocks were a
-          cool way to look at conditional rendering, and while I didn’t need to
-          use the universal stores for that project, it seemed way easier to use
-          when compared to something like Redux.{" "}
+          In addition, the built in transitions were nice, &apos;if&apos; blocks
+          were a cool way to look at conditional rendering, and while I didn’t
+          need to use the universal stores for that project, it seemed way
+          easier to use when compared to something like Redux.{" "}
           <span className="font-bold">658 points.</span>
         </p>
         <p id="paragraph" className="mb-4">
@@ -177,15 +174,15 @@ export default function ScoringJavascriptFrameworks() {
           <span className="font-bold">Logo Shape:</span>{" "}
           <Link
             href="https://www.youtube.com/watch?v=nhxDVYaO3eM&ab_channel=LucaConte"
-            className="border-b-[3px] border-tech cursor-pointer bg-transparent pb-[.1rem]"
+            className="tech-underline"
           >
             Simple And Clean (PlaniTb Remix).
           </Link>
           <span className="font-bold"> 375 points.</span>
         </p>
         <p id="paragraph" className="mb-4">
-          <span className="font-bold">Doorstep Line:</span> “Can you see my
-          member through these joggies?”{" "}
+          <span className="font-bold">Doorstep Line:</span> &quot;Can you see my
+          member through these joggies?&quot;{" "}
           <span className="font-bold">445 points.</span>
         </p>
         <p id="paragraph" className="mb-4">
@@ -208,10 +205,10 @@ export default function ScoringJavascriptFrameworks() {
         <p id="paragraph" className="mb-4">
           <span className="font-bold">My Experience</span>: Funny enough, I had
           planned to use Astro with its MDX and Tailwind integrations for this
-          very website (read more about that here) (link). It’s incredibly
-          alluring knowing you can incorporate components from other frameworks.
-          Astro is this gymnast that wants to prove how flexible they are, but
-          in reality, I just want quiet missionary with the lava lamp off.
+          very website. It’s incredibly alluring knowing you can incorporate
+          components from other frameworks. Astro is this gymnast that wants to
+          prove how flexible they are, but in reality, I just want quiet
+          missionary with the lava lamp off.
         </p>
 
         <p id="paragraph" className="mb-4">
@@ -232,15 +229,16 @@ export default function ScoringJavascriptFrameworks() {
           <span className="font-bold"> 344 points.</span>
         </p>
         <p id="paragraph" className="mb-4">
-          <span className="font-bold">Doorstep Line:</span> “Watch this.” I
-          stand motionless as Astro Grudge-crawls a figure eight across the dewy
-          apartment complex lawn. <span className="font-bold">305 points.</span>
+          <span className="font-bold">Doorstep Line:</span> &quot;Watch
+          this.&quot; I stand motionless as Astro Grudge-crawls a figure eight
+          across the dewy apartment complex lawn.{" "}
+          <span className="font-bold">305 points.</span>
         </p>
         <p id="paragraph" className="mb-4">
           <span className="font-bold">Overall Attraction Score:</span>{" "}
           <span className="font-bold">897 points.</span> I got the ick after the
           first date but will probably hit them up after a few plates(?) of
-          Chardonnay.
+          Chareau.
         </p>
         <p id="sectionchange" className="mb-4 mt-12 font-bold text-3xl">
           React
@@ -269,12 +267,12 @@ export default function ScoringJavascriptFrameworks() {
           well worn queen mattress at a single story, roadside motel.
         </p>
         <p id="paragraph" className="mb-4">
-          “Hey.” I say. “Hey.” They say back. “How’ve you been?” They take a
-          long drag and look up at their reflection in the Zenith tube tv. “You
-          really want to know? Or should we just jump into it?” I keep my
-          stringer on (I had just broken a bench press record). “Yeah, I really
-          want to know.” React lets out a soft laugh and ashes their cigar on my
-          Crocs. “It’s{" "}
+          &quot;Hey.&quot; I say. &quot;Hey.&quot; They say back. &quot;How’ve
+          you been?&quot; They take a long drag and look up at their reflection
+          in the Zenith tube tv. &quot;You really want to know? Or should we
+          just jump into it?&quot; I keep my stringer on (I had just broken a
+          bench press record). &quot;Yeah, I really want to know.&quot; React
+          lets out a soft laugh and ashes their cigar on my Crocs. &quot;It’s{" "}
           <Link
             href="https://javascript.plainenglish.io/why-create-react-app-is-outdated-in-2022-b1d9c99e18d0#:~:text=While%20this%20is%20super%20convenient,you%20dislike%20the%20default%20configuration"
             className="border-b-[3px] border-tech cursor-pointer bg-transparent pb-[.1rem]"
@@ -288,7 +286,7 @@ export default function ScoringJavascriptFrameworks() {
           >
             Interesting
           </Link>
-          .”<span className="font-bold"> 408 points.</span>
+          .&quot;<span className="font-bold"> 408 points.</span>
         </p>
         <p id="paragraph" className="mb-4">
           <span className="font-bold">How It Sounds:</span> Like a knee-jerk
@@ -297,14 +295,14 @@ export default function ScoringJavascriptFrameworks() {
         </p>
         <p id="paragraph" className="mb-4">
           <span className="font-bold">Logo Shape:</span> Unimpressive. That is,
-          until I found out there was an outline of a ‘bolt’ as a reference to
+          until I found out there was an outline of a bolt as a reference to
           bolt.js in the center of the logo. Sneaky and cool, React. Sneaky and
           cool.
           <span className="font-bold"> 450 points.</span>
         </p>
         <p id="paragraph" className="mb-4">
-          <span className="font-bold">Doorstep Line:</span> “I think we both
-          know where this is going.”{" "}
+          <span className="font-bold">Doorstep Line:</span> &quot;I think we
+          both know where this is going.&quot;{" "}
           <span className="font-bold">367 points.</span>
         </p>
         <p id="paragraph" className="mb-4">
@@ -349,10 +347,11 @@ export default function ScoringJavascriptFrameworks() {
           <span className="font-bold"> 207 points.</span>
         </p>
         <p id="paragraph" className="mb-4">
-          <span className="font-bold">Doorstep Line:</span> “I had a great time
-          tonight.” Vue says, already walking away. “Bowling was a blast.”
-          Almost out of earshot at this point. “We should do this again
-          sometime.” <span className="font-bold">128 points.</span>
+          <span className="font-bold">Doorstep Line:</span> &quot;I had a great
+          time tonight.&quot; Vue says, already walking away. &quot;Bowling was
+          a blast.&quot; Almost out of earshot at this point. &quot;We should do
+          this again sometime.&quot;{" "}
+          <span className="font-bold">128 points.</span>
         </p>
         <p id="paragraph" className="mb-4">
           <span className="font-bold">Overall Attraction Score:</span>{" "}
@@ -383,18 +382,18 @@ export default function ScoringJavascriptFrameworks() {
 
         <p id="paragraph" className="mb-4">
           <span className="font-bold">How It Sounds:</span> Playfully deceiving.
-          There is no “next”. There is only “here and now” when using Next.{" "}
-          <span className="font-bold">345 points.</span>
+          There is no &quot;next&quot;. There is only &quot;here and now&quot;
+          when using Next. <span className="font-bold">345 points.</span>
         </p>
         <p id="paragraph" className="mb-4">
           <span className="font-bold">Logo Shape:</span> My single complaint.
-          Derivative of the Latin letter “N”.
+          Derivative of the Latin letter &quot;N&quot;.
           <span className="font-bold"> 213 points.</span>
         </p>
         <p id="paragraph" className="mb-4">
-          <span className="font-bold">Doorstep Line:</span> “Let’s head inside
-          and talk about Cap’n Crunch’s Crunchling Adventure over a piece(?) of
-          Chardonnay.”{" "}
+          <span className="font-bold">Doorstep Line:</span> &quot;Let’s head
+          inside and talk about Cap’n Crunch’s Crunchling Adventure over a
+          piece(?) of Chareau.&quot;{" "}
           <span className="italic">
             Context: I like talking about Cap’n Crunch’s Crunchling Adventure.
           </span>{" "}
@@ -410,10 +409,10 @@ export default function ScoringJavascriptFrameworks() {
         </p>
         <p id="paragraph" className="mb-4">
           Every framework has their strengths. Literally, each framework can
-          lift a metric ton. That being said, there can only be one ranked “Most
-          Moist” according to <span className="italic">The Sweaty Number</span>.
-          After careful consideration and with all deductions added, the winner
-          is:
+          lift a metric ton. That being said, there can only be one ranked
+          &quot;Most Moist&quot; according to{" "}
+          <span className="italic">The Sweaty Number</span>. After careful
+          consideration and with all deductions added, the winner is:
         </p>
         <p id="paragraph" className="mb-4">
           Holy shit, it’s a tie! That’s not what I was expecting at all.
@@ -443,7 +442,7 @@ export default function ScoringJavascriptFrameworks() {
             className="cursor-pointer flex rounded-lg px-3 py-1 bg-zinc-800 justify-center items-center space-x-2"
           >
             <p className="font-mono text-sm bg-transparent pt-[.15rem] w-44">
-              {!copied ? "COPY TO SHARE LINK" : "COPIED! YOU DID IT!"}
+              {!copied ? "CLICK TO COPY LINK" : "COPIED! YOU DID IT!"}
             </p>
           </button>
         </div>

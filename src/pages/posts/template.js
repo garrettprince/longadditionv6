@@ -196,7 +196,7 @@ export default function Template() {
             className="cursor-pointer flex rounded-lg px-3 py-1 bg-zinc-800 justify-center items-center space-x-2"
           >
             <p className="font-mono text-sm bg-transparent pt-[.15rem] w-44">
-              {!copied ? "COPY TO SHARE LINK" : "COPIED! YOU DID IT!"}
+              {!copied ? "CLICK TO COPY LINK" : "COPIED! YOU DID IT!"}
             </p>
           </button>
         </div>

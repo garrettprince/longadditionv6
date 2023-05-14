@@ -7,21 +7,68 @@ function Feed({ selected }) {
     ///////////////////
     // NEWEST UP TOP //
     ///////////////////
+
     {
-      title: "Advice For People Like Me: Take More Photos",
-      type: "photoLeft",
+      title: "What Is Long Addition?",
+      type: "photoRight",
       link: "/posts/misc/what-is-long-addition",
-      titleSize: "text-3xl",
-      date: "02.04.23",
-      category: "visual",
+      titleSize: "text-4xl",
+      date: "05.11.23",
+      category: "misc",
       duration: "5 min",
       series: false,
       seriesTitle: "",
       photo:
-        "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1683823345/Long%20Addition/Posts/Advice%20For%20People%20Like%20Me%20-%20Take%20More%20Photos/thumbnail_yjaeao.png",
+        "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1683327434/Long%20Addition/Posts/What%20Is%20Long%20Addition/thumbnailnew_d5ce8x.png",
       marginBottom: "mb-20",
       premium: false,
     },
+    {
+      title:
+        "Scoring 5 Javascript Frameworks By How Physically Attracted I Am To Them",
+      type: "photoLeft",
+      link: "/posts/tech/scoring-javascript-frameworks",
+      titleSize: "text-2xl",
+      date: "02.04.23",
+      category: "tech",
+      duration: "7 min",
+      series: false,
+      seriesTitle: "",
+      photo:
+        "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679806795/Long%20Addition/Posts/Scoring%205%20Javascript%20Frameworks%20By%20How%20Attracted%20I%20Am%20To%20Them/roseraised2_dx4gcy.png",
+      marginBottom: "mb-20",
+      premium: false,
+    },
+    {
+      title: "Not Vocal Enough? Here Are My Top 10 Things To Say During Sex",
+      type: "photoRight",
+      link: "/posts/health/10-things-to-say-during-sex",
+      titleSize: "text-2xl",
+      date: "02.04.23",
+      category: "health",
+      duration: "5 min",
+      series: false,
+      seriesTitle: "",
+      photo:
+        "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679861498/Long%20Addition/Posts/Not%20Vocal%20Enough/thumbnailraised_v9a4rc.png",
+      marginBottom: "mb-20",
+      premium: false,
+    },
+    // {
+    //   title: "Advice For People Like Me: Take More Photos",
+    //   type: "photoLeft",
+    //   link: "/posts/misc/what-is-long-addition",
+    //   titleSize: "text-3xl",
+    //   date: "02.04.23",
+    //   category: "visual",
+    //   duration: "5 min",
+    //   series: false,
+    //   seriesTitle: "",
+    //   photo:
+    //     "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1683823345/Long%20Addition/Posts/Advice%20For%20People%20Like%20Me%20-%20Take%20More%20Photos/thumbnail_yjaeao.png",
+    //   marginBottom: "mb-20",
+    //   premium: false,
+    // },
 
     // {
     //   title: "My Timeline Theory",
@@ -91,21 +138,7 @@ function Feed({ selected }) {
     //   marginBottom: "mb-20",
     //   premium: false,
     // },
-    {
-      title: "Not Vocal Enough? Here Are My Top 10 Things To Say During Sex",
-      type: "photoRight",
-      link: "/posts/health/10-things-to-say-during-sex",
-      titleSize: "text-2xl",
-      date: "02.04.23",
-      category: "health",
-      duration: "5 min",
-      series: false,
-      seriesTitle: "",
-      photo:
-        "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679861498/Long%20Addition/Posts/Not%20Vocal%20Enough/thumbnailraised_v9a4rc.png",
-      marginBottom: "mb-20",
-      premium: false,
-    },
+
     // {
     //   title: "What Ever Happened To My Crunchlings?",
     //   type: "photoLeft",
@@ -151,22 +184,7 @@ function Feed({ selected }) {
       marginBottom: "mb-20",
       premium: false,
     },
-    {
-      title:
-        "Scoring 5 Javascript Frameworks By How Physically Attracted I Am To Them",
-      type: "photoLeft",
-      link: "/posts/tech/scoring-javascript-frameworks",
-      titleSize: "text-2xl",
-      date: "02.04.23",
-      category: "tech",
-      duration: "7 min",
-      series: false,
-      seriesTitle: "",
-      photo:
-        "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679806795/Long%20Addition/Posts/Scoring%205%20Javascript%20Frameworks%20By%20How%20Attracted%20I%20Am%20To%20Them/roseraised2_dx4gcy.png",
-      marginBottom: "mb-20",
-      premium: false,
-    },
+
     {
       // use this when newsletter is live, every 6-8 posts
       // type: "newsletterCtaLarge2",
@@ -203,20 +221,10 @@ function Feed({ selected }) {
     //   marginBottom: "mb-20",
     //   premium: false,
     // },
+
     {
-      title: "What Is Long Addition?",
-      type: "photoRight",
-      link: "/posts/misc/what-is-long-addition",
-      titleSize: "text-4xl",
-      date: "05.11.23",
-      category: "misc",
-      duration: "5 min",
-      series: false,
-      seriesTitle: "",
-      photo:
-        "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1683327434/Long%20Addition/Posts/What%20Is%20Long%20Addition/thumbnailnew_d5ce8x.png",
-      marginBottom: "mb-20",
-      premium: false,
+      type: "placeholder",
+      category: "visual",
     },
   ];
 
