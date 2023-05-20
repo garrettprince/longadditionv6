@@ -9,6 +9,21 @@ function Feed({ selected }) {
     ///////////////////
 
     {
+      title: "I Made A Mad Lib For The Whole Family",
+      type: "photoLeft",
+      link: "/posts/misc/madlib-for-the-family",
+      titleSize: "text-3xl",
+      date: "05.20.23",
+      category: "misc",
+      duration: "5 min",
+      series: false,
+      seriesTitle: "",
+      photo:
+        "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1680049461/Long%20Addition/Posts/I%20Made%20A%20Madlib/thumbnailraised_j068qn.png",
+      marginBottom: "mb-20",
+      premium: false,
+    },
+    {
       title: "What Is Long Addition?",
       type: "photoRight",
       link: "/posts/misc/what-is-long-addition",
@@ -123,21 +138,6 @@ function Feed({ selected }) {
       marginBottom: "mb-20",
       premium: false,
     },
-    // {
-    //   title: "I Made A Mad Lib For The Whole Family",
-    //   type: "photoLeft",
-    //   link: "/posts/misc/madlib-for-the-family",
-    //   titleSize: "text-3xl",
-    //   date: "02.04.23",
-    //   category: "misc",
-    //   duration: "5 min",
-    //   series: false,
-    //   seriesTitle: "",
-    //   photo:
-    //     "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1680049461/Long%20Addition/Posts/I%20Made%20A%20Madlib/thumbnailraised_j068qn.png",
-    //   marginBottom: "mb-20",
-    //   premium: false,
-    // },
 
     // {
     //   title: "What Ever Happened To My Crunchlings?",

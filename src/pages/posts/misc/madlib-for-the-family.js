@@ -30,7 +30,7 @@ export default function MadlibForTheFamily() {
 
   const thumbnailInfo = {
     title: "I Made A Mad Lib For The Whole Family",
-    type: "photoRight",
+    type: "photoLeft",
     link: "/posts/misc/madlib-for-the-family",
     titleSize: "text-4xl",
     date: "",
@@ -73,7 +73,7 @@ export default function MadlibForTheFamily() {
           <div>
             <p className="text-sm font-mono text-inactive">BY GARRETT PRINCE</p>
             <p className="text-sm bg-transparent text-inactive font-mono ">
-              02.23.23
+              05.20.23
             </p>
           </div>
           <div>
@@ -122,14 +122,15 @@ export default function MadlibForTheFamily() {
         </div>
         <p id="paragraph" className="mb-4">
           For example: A typical Mad Lib may ask you for an adjective and you
-          may write in “handsome”. The result would look something like this:
+          may write in &quot;handsome&quot;. The result would look something
+          like this:
         </p>
 
         <p id="paragraph" className="mb-4">
-          “The <span className="italic">handsome</span> dog ran after the
-          mailman.” It’s funny because normally, you’d expect something like
-          “shaggy” or “Maltese” to describe the dog, but instead you called the
-          dog handsome!
+          &quot;The <span className="italic">handsome</span> dog ran after the
+          mailman.&quot; It’s funny because normally, you’d expect something
+          like &quot;shaggy&quot; or &quot;Maltese&quot; to describe the dog,
+          but instead you called the dog handsome!
         </p>
         <div className="mb-4 mt-10 ml-10 mr-14">
           <img
@@ -294,14 +295,14 @@ export default function MadlibForTheFamily() {
             </p>
 
             <p id="paragraph" className="mb-4">
-              “I’m sorry.” The doctor rested his clipboard on the edge of the
-              beige bed frame. “She hasn’t been responding to any of the
-              treatments. We’ve tried everything. There’s just… nothing else we
-              can do.”
+              &quot;I’m sorry.&quot; The doctor rested his clipboard on the edge
+              of the beige bed frame. &quot;She hasn’t been responding to any of
+              the treatments. We’ve tried everything. There’s just… nothing else
+              we can do.&quot;
             </p>
             <p id="paragraph" className="mb-4">
               Artie sat motionless, unable to meet the doctor’s eyes. His
-              knuckles permeated a new shade of white, gripping the chair he’d
+              knuckles produced a new shade of white, gripping the chair he’d
               been sleeping on for the past two months. Artie felt his eyes
               welling up. He thought he’d cried everything out. It was good to
               know he still had something left in him.
@@ -341,23 +342,24 @@ export default function MadlibForTheFamily() {
               made it pretty hard to look at her.
             </p>
             <p id="paragraph" className="mb-4">
-              “Pull the plug.” Artie whispered, turning to the large window
-              pane, tears streaming down his cheeks.
+              &quot;Pull the plug.&quot; Artie whispered, turning to the large
+              window pane, tears streaming down his cheeks.
             </p>
             <p id="paragraph" className="mb-4">
               The doctor nodded and reached for the large plug in the wall
-              labeled “PULL IF DEATH”. He looked up at Artie. “Anything else you
-              want to say?”
+              labeled &quot;PULL IF DEATH&quot;. He looked up at Artie.
+              &quot;Anything else you want to say?&quot;
             </p>
             <p id="paragraph" className="mb-4">
               Artie rested his forehead against his raised arm, positioned
-              firmly on the chilled window. “Yeah.” He took a deep breath. “
+              firmly on the chilled window. &quot;Yeah.&quot; He took a deep
+              breath. &quot;
               <span className="font-bold">
                 ...{formValues.adj1}, {formValues.verb1}, {formValues.noun1},{" "}
                 {formValues.pnoun1}, {formValues.verb2}, {formValues.exclaim},{" "}
                 {formValues.adj2}, {formValues.noun2}, {formValues.country}.
               </span>
-              ”
+              &quot;
             </p>
           </motion.div>
         )}
