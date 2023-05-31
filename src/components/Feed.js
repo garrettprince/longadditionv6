@@ -8,6 +8,36 @@ function Feed({ selected }) {
     // NEWEST UP TOP //
     ///////////////////
 
+    // {
+    //   title: "Advice For People Like Me: Take More Photos",
+    //   type: "photoRight",
+    //   link: "/posts/misc/what-is-long-addition",
+    //   titleSize: "text-3xl",
+    //   date: "02.04.23",
+    //   category: "visual",
+    //   duration: "5 min",
+    //   series: false,
+    //   seriesTitle: "",
+    //   photo:
+    //     "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1683823345/Long%20Addition/Posts/Advice%20For%20People%20Like%20Me%20-%20Take%20More%20Photos/thumbnail_yjaeao.png",
+    //   marginBottom: "mb-20",
+    //   premium: false,
+    // },
+    {
+      title: "What Ever Happened To My Crunchlings?",
+      type: "photoLeft",
+      link: "/posts/visual/what-happened-to-crunchlings",
+      titleSize: "text-3xl",
+      date: "05.31.23",
+      category: "visual",
+      duration: "15 min",
+      series: false,
+      seriesTitle: "",
+      photo:
+        "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679793057/Long%20Addition/Posts/What%20Happened%20To%20My%20Crunchlings/crunchgroup2_vwuvzq.png",
+      marginBottom: "mb-20",
+      premium: false,
+    },
     {
       title: "I Made A Mad Lib For The Whole Family",
       type: "photoLeft",
@@ -69,21 +99,6 @@ function Feed({ selected }) {
       marginBottom: "mb-20",
       premium: false,
     },
-    // {
-    //   title: "Advice For People Like Me: Take More Photos",
-    //   type: "photoLeft",
-    //   link: "/posts/misc/what-is-long-addition",
-    //   titleSize: "text-3xl",
-    //   date: "02.04.23",
-    //   category: "visual",
-    //   duration: "5 min",
-    //   series: false,
-    //   seriesTitle: "",
-    //   photo:
-    //     "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1683823345/Long%20Addition/Posts/Advice%20For%20People%20Like%20Me%20-%20Take%20More%20Photos/thumbnail_yjaeao.png",
-    //   marginBottom: "mb-20",
-    //   premium: false,
-    // },
 
     // {
     //   title: "My Timeline Theory",
@@ -139,21 +154,6 @@ function Feed({ selected }) {
       premium: false,
     },
 
-    // {
-    //   title: "What Ever Happened To My Crunchlings?",
-    //   type: "photoLeft",
-    //   link: "/posts/visual/what-happened-to-crunchlings",
-    //   titleSize: "text-3xl",
-    //   date: "02.04.23",
-    //   category: "visual",
-    //   duration: "15 min",
-    //   series: false,
-    //   seriesTitle: "",
-    //   photo:
-    //     "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679793057/Long%20Addition/Posts/What%20Happened%20To%20My%20Crunchlings/crunchgroup2_vwuvzq.png",
-    //   marginBottom: "mb-20",
-    //   premium: false,
-    // },
     // {
     //   title: "The Search For King Peenty's Big Red Rubies",
     //   type: "photoLeft",
@@ -222,10 +222,10 @@ function Feed({ selected }) {
     //   premium: false,
     // },
 
-    {
-      type: "placeholder",
-      category: "visual",
-    },
+    // {
+    //   type: "placeholder",
+    //   category: "visual",
+    // },
   ];
 
   const filteredThumbnails =
