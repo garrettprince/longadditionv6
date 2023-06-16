@@ -12,6 +12,7 @@
     "@heroicons/react": "^2.0.18",
     "@stripe/stripe-js": "^1.11.0",
     "@supabase/supabase-js": "^2.7.1",
+    "@vercel/analytics": "^1.0.1",
     "formik": "^2.2.9",
     "framer-motion": "^10.12.9",
     "next": "13.4.1",
