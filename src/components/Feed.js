@@ -1,7 +1,6 @@
 import React from "react";
 import Thumbnail from "./Thumbnail";
 
-
 function Feed({ selected }) {
   const thumbnailArray = [
     ///////////////////
@@ -21,7 +20,8 @@ function Feed({ selected }) {
     //   photo:
     //     "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1683823345/Long%20Addition/Posts/Advice%20For%20People%20Like%20Me%20-%20Take%20More%20Photos/thumbnail_yjaeao.png",
     //   marginBottom: "mb-20",
-    //   premium: false,
+    //   popular: false,
+    //   newPost: false,
     // },
     {
       title: "What Ever Happened To My Crunchlings?",
@@ -36,7 +36,8 @@ function Feed({ selected }) {
       photo:
         "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679793057/Long%20Addition/Posts/What%20Happened%20To%20My%20Crunchlings/crunchgroup2_vwuvzq.png",
       marginBottom: "mb-20",
-      premium: false,
+      popular: false,
+      newPost: false,
     },
     {
       title: "I Made A Mad Lib For The Whole Family",
@@ -51,7 +52,8 @@ function Feed({ selected }) {
       photo:
         "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1680049461/Long%20Addition/Posts/I%20Made%20A%20Madlib/thumbnailraised_j068qn.png",
       marginBottom: "mb-20",
-      premium: false,
+      popular: false,
+      newPost: false,
     },
     {
       title: "What Is Long Addition?",
@@ -66,7 +68,8 @@ function Feed({ selected }) {
       photo:
         "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1683327434/Long%20Addition/Posts/What%20Is%20Long%20Addition/thumbnailnew_d5ce8x.png",
       marginBottom: "mb-20",
-      premium: false,
+      popular: false,
+      newPost: false,
     },
     {
       title:
@@ -82,7 +85,8 @@ function Feed({ selected }) {
       photo:
         "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679806795/Long%20Addition/Posts/Scoring%205%20Javascript%20Frameworks%20By%20How%20Attracted%20I%20Am%20To%20Them/roseraised2_dx4gcy.png",
       marginBottom: "mb-20",
-      premium: false,
+      popular: false,
+      newPost: false,
     },
     {
       title: "Not Vocal Enough? Here Are My Top 10 Things To Say During Sex",
@@ -97,12 +101,13 @@ function Feed({ selected }) {
       photo:
         "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679861498/Long%20Addition/Posts/Not%20Vocal%20Enough/thumbnailraised_v9a4rc.png",
       marginBottom: "mb-20",
-      premium: false,
+      popular: false,
+      newPost: false,
     },
 
     // {
     //   title: "My Timeline Theory",
-    //   type: "photoRight",
+    //   type: "photoLeft",
     //   link: "/posts/misc/madlib-for-the-family",
     //   titleSize: "text-4xl",
     //   date: "02.04.23",
@@ -113,7 +118,8 @@ function Feed({ selected }) {
     //   photo:
     //     "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1683826432/Long%20Addition/Posts/My%20Timeline%20Theory/thumbnail_kfs1og.png",
     //   marginBottom: "mb-20",
-    //   premium: false,
+    //   popular: false,
+    // newPost: false,
     // },
     // {
     //   type: "newsletterCtaLarge2",
@@ -136,7 +142,8 @@ function Feed({ selected }) {
     //   photo:
     //     "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1681082360/Long%20Addition/Posts/Panic%20Playdate%20-%20Making%20Handheld%20Gaming%20Actually%20Fun%20Again/raisedthumbnail_fylreb.png",
     //   marginBottom: "mb-20",
-    //   premium: false,
+    //   popular: false,
+    // newPost: false,
     // },
     {
       title: "The Divine Comfort Of Mix Channels",
@@ -151,7 +158,8 @@ function Feed({ selected }) {
       photo:
         "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1680657574/Long%20Addition/Posts/Mix%20Channels%20on%20Youtube/thumbnail_skwygo.png",
       marginBottom: "mb-20",
-      premium: false,
+      popular: false,
+      newPost: false,
     },
 
     // {
@@ -167,7 +175,8 @@ function Feed({ selected }) {
     //   photo:
     //     "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679810837/Long%20Addition/Posts/The%20Search%20For%20King%20Peenty%27s%20Big%20Red%20Rubies/actionraised2_s499xr.png",
     //   marginBottom: "mb-20",
-    //   premium: false,
+    //   popular: false,
+    // newPost: false,
     // },
     {
       title: "The Fishbowl Effect",
@@ -182,7 +191,8 @@ function Feed({ selected }) {
       photo:
         "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679812065/Long%20Addition/Posts/Losing%20Money%20In%20Australia/collageraised_w9snh3.png",
       marginBottom: "mb-20",
-      premium: false,
+      popular: false,
+      newPost: false,
     },
 
     {
@@ -203,7 +213,8 @@ function Feed({ selected }) {
     //   photo:
     //     "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1680712453/Long%20Addition/Posts/Long%20Addition%20Site%20Build%20Pt.%201:%20I%20Don%27t%20Know%20What%20I%27m%20Doing/thumbnail_tkabhr.png",
     //   marginBottom: "mb-20",
-    //   premium: false,
+    //   popular: false,
+    //   newPost: false,
     // },
 
     // {
@@ -219,7 +230,8 @@ function Feed({ selected }) {
     //   photo:
     //     "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1677734937/Long%20Addition/Posts/Long%20Addition%20Site%20Build%20Pt.%201:%20I%20Don%27t%20Know%20What%20I%27m%20Doing/orangemac_bwp8xa.png",
     //   marginBottom: "mb-20",
-    //   premium: false,
+    //   popular: false,
+    // newPost: false,
     // },
 
     // {
@@ -249,12 +261,12 @@ function Feed({ selected }) {
           date={thumbnail.date}
           duration={thumbnail.duration}
           photo={thumbnail.photo}
-          premium={thumbnail.premium}
+          newPost={thumbnail.newPost}
+          popular={thumbnail.popular}
         />
       ))}
     </div>
   );
-
 }
 
 export default Feed;

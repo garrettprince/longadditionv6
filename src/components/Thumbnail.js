@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { premiumStarsList } from "../data/premiumStars";
+import { newStarsList, popularStarsList } from "../data/starsList";
 
 function Thumbnail({
   link,
@@ -14,7 +14,8 @@ function Thumbnail({
   duration,
   photo,
   marginBottom,
-  premium,
+  popular,
+  newPost,
   series,
   seriesTitle,
 }) {
@@ -78,14 +79,23 @@ function Thumbnail({
               alt=""
               src={photo}
             />
-            {premium && (
+            {popular && (
               <img
                 className="absolute right-[-1rem] bottom-[-1rem] bg-transparent h-32 w-32 sm:h-48 sm:w-48"
                 alt=""
                 src={
-                  premiumStarsList[
-                    Math.floor(Math.random() * premiumStarsList.length)
+                  popularStarsList[
+                    Math.floor(Math.random() * popularStarsList.length)
                   ]
+                }
+              />
+            )}
+            {newPost && (
+              <img
+                className="absolute right-[-1rem] bottom-[-1rem] bg-transparent h-32 w-32 sm:h-48 sm:w-48"
+                alt=""
+                src={
+                  newStarsList[Math.floor(Math.random() * newStarsList.length)]
                 }
               />
             )}
@@ -153,13 +163,24 @@ function Thumbnail({
               alt=""
               src={photo}
             />
-            {premium && (
+            {popular && (
               <img
                 className="absolute left-[-1rem] bottom-[-1rem] bg-transparent h-32 w-32 sm:h-48 sm:w-48"
                 alt=""
                 src={
-                  premiumStarsList[
-                    Math.floor(Math.random() * premiumStarsList.length)
+                  popularStarsList[
+                    Math.floor(Math.random() * popularStarsList.length)
+                  ]
+                }
+              />
+            )}
+            {newPost && (
+              <img
+                className="absolute left-[-1rem] bottom-[-1rem] bg-transparent h-32 w-32 sm:h-48 sm:w-48"
+                alt=""
+                src={
+                  newStarsList[
+                    Math.floor(Math.random() * newStarsList.length)
                   ]
                 }
               />
