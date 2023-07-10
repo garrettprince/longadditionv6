@@ -28,7 +28,7 @@ export default function WhatIsLongAddition() {
   const thumbnailInfo = {
     title: "What Is Long Addition?",
     type: "photoRight",
-    link: "/posts/template",
+    link: "/posts/misc/what-is-long-addition",
     titleSize: "text-4xl",
     date: "",
     category: "",
@@ -88,12 +88,15 @@ export default function WhatIsLongAddition() {
         className=" ml-4 mr-3 text-lg sm:ml-8"
       >
         <p id="paragraph" className="mb-4">
-          In early January, I sat down on a stationary bike for my
-          daily cardio. I’d been dealing with a nasty bout of Runner’s Knee and
-          pedaling became the voluntary poison I picked to maintain my sanity.
-          To my surprise, pedaling nowhere turned out to be quite tranquil. I
-          was never great at meditation but this felt as close as I was going to
-          get to momentary inner-peace. As an added benefit, this small activity
+          <span className="font-bold">
+            In early January, I sat down on a stationary bike for my daily
+            cardio.
+          </span>{" "}
+          I’d been dealing with a nasty bout of Runner’s Knee and pedaling
+          became the voluntary poison I picked to maintain my sanity. To my
+          surprise, pedaling nowhere turned out to be quite tranquil. I was
+          never great at meditation but this felt as close as I was going to get
+          to momentary inner-peace. As an added benefit, this small activity
           each day gave me time to think.
         </p>
         <p id="paragraph" className="mb-4">
@@ -181,8 +184,8 @@ export default function WhatIsLongAddition() {
           now&quot;. Long Addition is my penpal.
         </p>
         <p id="final-paragraph" className="mb-20">
-          Long Addition is the bet I’m making on myself. Thanks for checking it
-          out. I hope it adds some value for you in the long run.
+          Thanks for checking it out. I hope it adds some value for you in the
+          long run.
           <button
             disabled
             className="ml-2 h-3 w-3 rounded-full bg-misc"

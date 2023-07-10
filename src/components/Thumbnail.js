@@ -81,7 +81,7 @@ function Thumbnail({
             />
             {popular && (
               <img
-                className="absolute right-[-1rem] bottom-[-1rem] bg-transparent h-32 w-32 sm:h-48 sm:w-48"
+                className="absolute right-[-1rem] bottom-[-1rem] bg-transparent h-32 w-32  sm:h-48 sm:w-48"
                 alt=""
                 src={
                   popularStarsList[
@@ -165,7 +165,7 @@ function Thumbnail({
             />
             {popular && (
               <img
-                className="absolute left-[-1rem] bottom-[-1rem] bg-transparent h-32 w-32 sm:h-48 sm:w-48"
+                className="absolute left-[-1rem] bottom-[-1rem] bg-transparent h-32 w-32  sm:h-48 sm:w-48"
                 alt=""
                 src={
                   popularStarsList[
@@ -179,9 +179,7 @@ function Thumbnail({
                 className="absolute left-[-1rem] bottom-[-1rem] bg-transparent h-32 w-32 sm:h-48 sm:w-48"
                 alt=""
                 src={
-                  newStarsList[
-                    Math.floor(Math.random() * newStarsList.length)
-                  ]
+                  newStarsList[Math.floor(Math.random() * newStarsList.length)]
                 }
               />
             )}

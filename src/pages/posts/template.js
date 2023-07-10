@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { useReward } from "react-rewards";
 import Link from "next/link";
 import { useState } from "react";
-import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/24/solid";
 
 export default function Template() {
   const [copied, setCopied] = useState(false);
@@ -26,9 +25,9 @@ export default function Template() {
   };
 
   const thumbnailInfo = {
-    title: "This is the template for each post, please use wisely",
+    title: "This is the title",
     type: "photoRight",
-    link: "/posts/template",
+    link: "/posts/",
     titleSize: "text-3xl",
     date: "",
     category: "",
@@ -104,7 +103,7 @@ export default function Template() {
           pariatur enim! Sed magni minima sequi nisi nulla optio non quod
           debitis ipsum.
         </p>
-        <div className="mb-4 mt-10 ml-10 mr-14">
+        <div className="mb-4 mt-10 mx-10">
           <img
             alt=""
             className="sm:h-64 mx-auto"
@@ -126,6 +125,24 @@ export default function Template() {
           pariatur enim! Sed magni minima sequi nisi nulla optio non quod
           debitis ipsum.
         </p>
+        {/* <div id="gif" className="my-14 mx-10">
+          <img
+            alt=""
+            className="sm:h-88 mx-auto rounded-2xl box-border border-black gif-shadow"
+            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1688634235/Long%20Addition/Branding/IMG_3575_uimwbc.gif"
+          />
+        </div>
+        <div id="gif" className="my-14 mx-10 sm:h-88">
+          <video
+            autoPlay
+            playsInline
+            loop
+            muted
+            alt=""
+            className="sm:h-88 mx-auto rounded-2xl box-border border-black gif-shadow aspect"
+            src="https://res.cloudinary.com/dvwbpgk6p/video/upload/v1688637106/Long%20Addition/Branding/IMG_3233_hyjxix.mov"
+          />
+        </div> */}
         <p id="paragraph" className="mb-4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
           explicabo fugiat qui recusandae accusantium quia autem facilis

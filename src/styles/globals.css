@@ -51,6 +51,12 @@
     drop-shadow(1px 1px 0px #830095);
 }
 
+.gif-shadow {
+  filter: drop-shadow(1px 1px 0px rgb(39 39 42)) drop-shadow(1px 1px 0px rgb(39 39 42))
+    drop-shadow(1px 1px 0px rgb(39 39 42)) drop-shadow(1px 1px 0px rgb(39 39 42))
+    drop-shadow(1px 1px 0px rgb(39 39 42)) drop-shadow(1px 1px 0px rgb(39 39 42));
+}
+
 .latest-shadow {
   filter: drop-shadow(-1px 1px 0px #adadad) drop-shadow(-1px 1px 0px #adadad)
     drop-shadow(-1px 1px 0px #adadad) drop-shadow(-1px 1px 0px #adadad);

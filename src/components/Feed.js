@@ -7,22 +7,54 @@ function Feed({ selected }) {
     // NEWEST UP TOP //
     ///////////////////
 
-    // {
-    //   title: "Advice For People Like Me: Take More Photos",
-    //   type: "photoRight",
-    //   link: "/posts/misc/what-is-long-addition",
-    //   titleSize: "text-3xl",
-    //   date: "02.04.23",
-    //   category: "visual",
-    //   duration: "5 min",
-    //   series: false,
-    //   seriesTitle: "",
-    //   photo:
-    //     "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1683823345/Long%20Addition/Posts/Advice%20For%20People%20Like%20Me%20-%20Take%20More%20Photos/thumbnail_yjaeao.png",
-    //   marginBottom: "mb-20",
-    //   popular: false,
-    //   newPost: false,
-    // },
+    {
+      title: "Advice For People Like Me: Take More Photos",
+      type: "photoRight",
+      link: "/posts/visual/take-more-photos",
+      titleSize: "text-3xl",
+      date: "07.10.23",
+      category: "visual",
+      duration: "7 min",
+      series: false,
+      seriesTitle: "",
+      photo:
+        "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1683823345/Long%20Addition/Posts/Advice%20For%20People%20Like%20Me%20-%20Take%20More%20Photos/thumbnail_yjaeao.png",
+      marginBottom: "mb-20",
+      popular: false,
+      newPost: false,
+    },
+    {
+      title: "The Search For King Peenty's Big Red Rubies",
+      type: "photoLeft",
+      link: "/posts/travel/king-peenty-red-rubies",
+      titleSize: "text-3xl",
+      date: "07.08.23",
+      category: "travel",
+      duration: "5 min",
+      series: false,
+      seriesTitle: "",
+      photo:
+        "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679810837/Long%20Addition/Posts/The%20Search%20For%20King%20Peenty%27s%20Big%20Red%20Rubies/actionraised2_s499xr.png",
+      marginBottom: "mb-20",
+      popular: false,
+      newPost: false,
+    },
+    {
+      title: "My Timeline Theory",
+      type: "photoRight",
+      link: "/posts/misc/the-timeline-theory",
+      titleSize: "text-4xl",
+      date: "07.07.23",
+      category: "misc",
+      duration: "5 min",
+      series: true,
+      seriesTitle: "the theory series",
+      photo:
+        "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1683826432/Long%20Addition/Posts/My%20Timeline%20Theory/thumbnail_kfs1og.png",
+      marginBottom: "mb-20",
+      popular: true,
+    newPost: false,
+    },
     {
       title: "What Ever Happened To My Crunchlings?",
       type: "photoLeft",
@@ -68,7 +100,7 @@ function Feed({ selected }) {
       photo:
         "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1683327434/Long%20Addition/Posts/What%20Is%20Long%20Addition/thumbnailnew_d5ce8x.png",
       marginBottom: "mb-20",
-      popular: false,
+      popular: true,
       newPost: false,
     },
     {
@@ -105,22 +137,6 @@ function Feed({ selected }) {
       newPost: false,
     },
 
-    // {
-    //   title: "My Timeline Theory",
-    //   type: "photoLeft",
-    //   link: "/posts/misc/madlib-for-the-family",
-    //   titleSize: "text-4xl",
-    //   date: "02.04.23",
-    //   category: "misc",
-    //   duration: "5 min",
-    //   series: true,
-    //   seriesTitle: "the theory series",
-    //   photo:
-    //     "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1683826432/Long%20Addition/Posts/My%20Timeline%20Theory/thumbnail_kfs1og.png",
-    //   marginBottom: "mb-20",
-    //   popular: false,
-    // newPost: false,
-    // },
     // {
     //   type: "newsletterCtaLarge2",
     // },
@@ -162,22 +178,6 @@ function Feed({ selected }) {
       newPost: false,
     },
 
-    // {
-    //   title: "The Search For King Peenty's Big Red Rubies",
-    //   type: "photoLeft",
-    //   link: "/posts/travel/king-peenty-red-rubies",
-    //   titleSize: "text-3xl",
-    //   date: "02.04.23",
-    //   category: "travel",
-    //   duration: "10 min",
-    //   series: false,
-    //   seriesTitle: "",
-    //   photo:
-    //     "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1679810837/Long%20Addition/Posts/The%20Search%20For%20King%20Peenty%27s%20Big%20Red%20Rubies/actionraised2_s499xr.png",
-    //   marginBottom: "mb-20",
-    //   popular: false,
-    // newPost: false,
-    // },
     {
       title: "The Fishbowl Effect",
       type: "photoRight",

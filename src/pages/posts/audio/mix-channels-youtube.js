@@ -28,7 +28,7 @@ export default function MixChannelsYoutube() {
   const thumbnailInfo = {
     title: "The Divine Comfort Of Mix Channels",
     type: "photoRight",
-    link: "/posts/template",
+    link: "/posts/mix-channels-youtube",
     titleSize: "text-4xl",
     date: "",
     category: "",

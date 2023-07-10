@@ -13,6 +13,16 @@ function CategoryBar({ selected, setSelected }) {
       >
         LATEST
       </button>
+      {/* <button
+        onClick={() => setSelected("log")}
+        className={`${
+          selected === "log"
+            ? "rotate-270 mb-12 transition-all duration-100 scale-105 bg-gradient-to-br from-cta-gradient-1 to-cta-gradient-2 rounded-md px-2 mr-[.15rem] py-[.1rem] text-white subscribe-shadow"
+            : "rotate-270 mb-10 text-inactive duration-100 transition-all text-xs"
+        }`}
+      >
+        LOG
+      </button> */}
       <button
         onClick={() => setSelected("misc")}
         className={`${
@@ -74,6 +84,7 @@ function CategoryBar({ selected, setSelected }) {
         >
           HEALTH
         </button>
+        
       </div>
     </div>
   );
