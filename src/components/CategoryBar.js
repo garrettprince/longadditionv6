@@ -2,7 +2,7 @@ import React from "react";
 
 function CategoryBar({ selected, setSelected }) {
   return (
-    <div className="fixed ml-[-.3rem] flex flex-col font-mono text-sm sm:text-md min-w-[4.7rem] h-64 mt-[5.5rem] space-y-15">
+    <div className="fixed ml-[-.3rem] flex flex-col font-mono text-sm sm:text-md min-w-[4.5rem] h-64 mt-[5.5rem] space-y-14">
       <button
         onClick={() => setSelected("latest")}
         className={`${
@@ -14,21 +14,22 @@ function CategoryBar({ selected, setSelected }) {
         LATEST
       </button>
       {/* <button
-        onClick={() => setSelected("log")}
+        onClick={() => setSelected("logs")}
         className={`${
-          selected === "log"
-            ? "rotate-270 mb-12 transition-all duration-100 scale-105 bg-gradient-to-br from-cta-gradient-1 to-cta-gradient-2 rounded-md px-2 mr-[.15rem] py-[.1rem] text-white subscribe-shadow"
-            : "rotate-270 mb-10 text-inactive duration-100 transition-all text-xs"
+          selected === "logs"
+            ? "rotate-270 mb-10 mt-4 transition-all duration-100 scale-105 bg-logs text-white logs-shadow rounded-md px-2 py-[.1rem]"
+            : "rotate-270 text-inactive duration-100 transition-all text-xs"
         }`}
       >
-        LOG
+        LOGS
       </button> */}
+     
       <button
         onClick={() => setSelected("misc")}
         className={`${
           selected === "misc"
             ? "rotate-270 mb-12 transition-all duration-100 scale-105 bg-misc rounded-md px-2 mr-[.15rem] py-[.1rem] text-white misc-shadow"
-            : "rotate-270 mb-10 text-inactive duration-100 transition-all text-xs"
+            : "rotate-270  text-inactive duration-100 transition-all text-xs"
         }`}
       >
         MISC
@@ -63,7 +64,7 @@ function CategoryBar({ selected, setSelected }) {
       >
         AUDIO
       </button>
-      <div className="flex flex-col space-y-7 pt-1">
+      <div className="flex flex-col space-y-5 pt-1">
         <button
           onClick={() => setSelected("visual")}
           className={`${
@@ -74,6 +75,7 @@ function CategoryBar({ selected, setSelected }) {
         >
           VISUAL
         </button>
+
         <button
           onClick={() => setSelected("health")}
           className={`${
@@ -84,7 +86,6 @@ function CategoryBar({ selected, setSelected }) {
         >
           HEALTH
         </button>
-        
       </div>
     </div>
   );

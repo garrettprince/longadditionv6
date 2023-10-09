@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useReward } from "react-rewards";
 import Link from "next/link";
 import { useState } from "react";
+import SquarePlayer from "../../../components/SquarePlayer";
 
 export default function Template() {
   const [copied, setCopied] = useState(false);
@@ -23,6 +24,27 @@ export default function Template() {
     document.body.removeChild(el);
     setCopied(true);
   };
+
+  const songData1 = {
+    songTitle: "Your Eyes",
+    artist: "Tatsuro Yamashita",
+    albumTitle: "For You",
+    albumArt:
+      "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1689568913/Long%20Addition/Posts/Logs/Test%20Log/tatsuroyour_nfxfac.jpg",
+    songSource:
+      "https://res.cloudinary.com/dvwbpgk6p/video/upload/v1689568615/Long%20Addition/Posts/Logs/Test%20Log/Tatsuro_Yamashita_-_Your_Eyes_lex7dz.mp3",
+  };
+
+  const songData2 = {
+    songTitle: "Golden",
+    artist: "Parade Of Lights",
+    albumTitle: "Feeling Electric",
+    albumArt:
+      "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1689826984/Long%20Addition/Posts/Audio/The%20Benefits%20Of%20Carb%20And%20Protein%20Listening/paradeoflights_hqbv6e.jpg",
+    songSource:
+      "https://res.cloudinary.com/dvwbpgk6p/video/upload/v1689827041/Long%20Addition/Posts/Audio/The%20Benefits%20Of%20Carb%20And%20Protein%20Listening/RPReplay_Final1689813395_1_dujqjn.mp3",
+  };
+
 
   const thumbnailInfo = {
     title: "This is the title",
@@ -119,42 +141,32 @@ export default function Template() {
           pariatur enim! Sed magni minima sequi nisi nulla optio non quod
           debitis ipsum.
         </p>
-
-        {/* Square Player if needed, need to import SongData object */}
-        {/* <div className="mr-2">
+        <div className="mr-2">
           <SquarePlayer
-            artist={songData.artist}
-            songSource={songData.songSource}
-            albumArt={songData.albumArt}
-            albumTitle={songData.albumTitle}
-            songTitle={songData.songTitle}
+            artist={songData2.artist}
+            songSource={songData2.songSource}
+            albumArt={songData2.albumArt}
+            albumTitle={songData2.albumTitle}
+            songTitle={songData2.songTitle}
           />
-        </div> */}
-
+        </div>
         <p id="paragraph" className="mb-4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
           explicabo fugiat qui recusandae accusantium quia autem facilis
           pariatur enim! Sed magni minima sequi nisi nulla optio non quod
           debitis ipsum.
         </p>
-        {/* <div id="gif" className="my-14 mx-10">
-          <img
-            alt=""
-            className="sm:h-88 mx-auto rounded-2xl box-border border-black gif-shadow"
-            src="https://res.cloudinary.com/dvwbpgk6p/image/upload/v1688634235/Long%20Addition/Branding/IMG_3575_uimwbc.gif"
+
+        <div className="mr-2">
+          <SquarePlayer
+            artist={songData1.artist}
+            songSource={songData1.songSource}
+            albumArt={songData1.albumArt}
+            albumTitle={songData1.albumTitle}
+            songTitle={songData1.songTitle}
           />
         </div>
-        <div id="gif" className="my-14 mx-10 sm:h-88">
-          <video
-            autoPlay
-            playsInline
-            loop
-            muted
-            alt=""
-            className="sm:h-88 mx-auto rounded-2xl box-border border-black gif-shadow aspect"
-            src="https://res.cloudinary.com/dvwbpgk6p/video/upload/v1688637106/Long%20Addition/Branding/IMG_3233_hyjxix.mov"
-          />
-        </div> */}
+
         <p id="paragraph" className="mb-4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
           explicabo fugiat qui recusandae accusantium quia autem facilis

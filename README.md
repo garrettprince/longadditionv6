@@ -1,34 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Long Addition
 
-## Getting Started
+![Home](public/assets/brand/ScreenShot2023-10-08at2.441.png)
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- [General Info](#general-information)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Project Status](#project-status)
+- [Issues](#issues)
+- [To Do](#to-do)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## General Information
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Long Addition is both an experiement in blog design and my own
+creative writing. Loved the layout and decided to forego a CMS and
+Markdown. This proved to be very cumbersome and a massive barrier
+to getting writing up. I plan on revamping it with a simpler
+Markdown in early 2024.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Tech wise, I learned a ton about routing, asset management with
+Cloudinary, and adding my own twist (the 3D popping effect) with
+2D resources.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Technologies Used
 
-## Learn More
+- Next.js v13.4.1
+- React Rewards v2.0.4
+- Formik v2.2.9
+- Framer Motion v10.12.9
 
-To learn more about Next.js, take a look at the following resources:
+## Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 3D popping effect with 2D Tailwind classes
+- Basic confetti animations with React Rewards
+- Customizable article layout
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Project Status
 
-## Deploy on Vercel
+- Version 1: _complete as of 5/15/23_
+- Version 2: _in progress_
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Issues
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- When pressing Copy Link at the bottom of an article, React Rewards triggers a confetti explosion that shifts the screen down if you try to scroll at the same time
+
+## To Do
+
+| Task                                 | Status |
+| ------------------------------------ | ------ |
+| Revamp design for simpler experience | :x:    |
+| Implement MDX                        | :x:    |

@@ -1,18 +1,59 @@
 /* eslint-disable @next/next/no-img-element */
-import Thumbnail from "/src/components/Thumbnail";
+import Thumbnail from "../../../components/Thumbnail";
 import { motion } from "framer-motion";
 import { useReward } from "react-rewards";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import SuggestedListeningPlayer from "../../../components/SuggestedListeningPlayer";
+import CodeBlock from "../../../components/CodeBlock";
+import MediumPlayer from "../../../components/MediumPlayer";
+import SquarePlayer from "../../../components/SquarePlayer";
 
 export default function Template() {
   const [copied, setCopied] = useState(false);
+  const [isSticky, setIsSticky] = useState(false);
   const { reward: confettiReward, isAnimating: isConfettiAnimating } =
     useReward("confettiReward", "confetti");
 
   const confettiSpring = () => {
     confettiReward();
   };
+
+  const songData1 = {
+    songTitle: "Your Eyes",
+    artist: "Tatsuro Yamashita",
+    albumTitle: "For You",
+    albumArt:
+      "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1689568913/Long%20Addition/Posts/Logs/Test%20Log/tatsuroyour_nfxfac.jpg",
+    songSource:
+      "https://res.cloudinary.com/dvwbpgk6p/video/upload/v1689568615/Long%20Addition/Posts/Logs/Test%20Log/Tatsuro_Yamashita_-_Your_Eyes_lex7dz.mp3",
+  };
+  const songData2 = {
+    songTitle: "Golden",
+    artist: "Parade Of Lights",
+    albumTitle: "Feeling Electric",
+    albumArt:
+      "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1689826984/Long%20Addition/Posts/Audio/The%20Benefits%20Of%20Carb%20And%20Protein%20Listening/paradeoflights_hqbv6e.jpg",
+    songSource:
+      "https://res.cloudinary.com/dvwbpgk6p/video/upload/v1689827041/Long%20Addition/Posts/Audio/The%20Benefits%20Of%20Carb%20And%20Protein%20Listening/RPReplay_Final1689813395_1_dujqjn.mp3",
+  };
+  const songData3 = {
+    songTitle: "Your Eyes",
+    artist: "Tatsuro Yamashita",
+    albumTitle: "For You",
+    albumArt:
+      "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1689568913/Long%20Addition/Posts/Logs/Test%20Log/tatsuroyour_nfxfac.jpg",
+    songSource:
+      "https://res.cloudinary.com/dvwbpgk6p/video/upload/v1689568615/Long%20Addition/Posts/Logs/Test%20Log/Tatsuro_Yamashita_-_Your_Eyes_lex7dz.mp3",
+  };
+
+//   const code1 = `<div>
+//             <p>This is a paragraph.</p>
+//             <h1>This is an h1 tag.</h1>
+//             {!react && (
+//                 <h1>This is a test</h1>
+//             )}
+//         </div>`;
 
   const copy = () => {
     const el = document.createElement("input");
@@ -25,16 +66,17 @@ export default function Template() {
   };
 
   const thumbnailInfo = {
-    title: "This is the title",
+    title: "A Different Kind Of Post",
     type: "photoRight",
     link: "/posts/",
-    titleSize: "text-3xl",
+    titleSize: "text-4xl",
     date: "",
     category: "",
     duration: "",
-    series: false,
-    seriesTitle: "",
-    photo: "/assets/brand/garretttest.png",
+    series: true,
+    seriesTitle: "Captain's Log 001",
+    photo:
+      "https://res.cloudinary.com/dvwbpgk6p/image/upload/v1690095135/Long%20Addition/Posts/Logs/001%20A%20Different%20Kind%20Of%20Post/Group_132_iwfahj.png",
     marginBottom: "",
   };
 
@@ -80,6 +122,26 @@ export default function Template() {
         </motion.div>
       </header>
       <motion.div
+        className="sticky z-10 top-[4.3rem] sm:top-[5.3rem] bg-transparent backdrop-blur-2"
+        initial={{ y: 6, opacity: 0 }}
+        animate={{ y: -3, opacity: 1 }}
+        transition={{ ease: "easeOut", duration: 0.2 }}
+      >
+        <SuggestedListeningPlayer
+          artist1={songData1.artist}
+          songTitle1={songData1.songTitle}
+          albumTitle1={songData1.albumTitle}
+          albumArt1={songData1.albumArt}
+          songSource1={songData1.songSource}
+          artist2={songData2.artist}
+          songTitle2={songData2.songTitle}
+          albumTitle2={songData2.albumTitle}
+          albumArt2={songData2.albumArt}
+          songSource2={songData2.songSource}
+        />
+      </motion.div>
+
+      <motion.div
         initial={{ y: 6, opacity: 0 }}
         animate={{ y: -3, opacity: 1 }}
         transition={{ ease: "easeOut", duration: 0.2 }}
@@ -91,6 +153,29 @@ export default function Template() {
           pariatur enim! Sed magni minima sequi nisi nulla optio non quod
           debitis ipsum.
         </p>
+
+        {/* TODO: Figure out how to style code block, not sure how yet */}
+        {/* <CodeBlock code={code1} language="jsx" /> */}
+
+        {/* <MediumPlayer
+          artist={songData.artist}
+          songTitle={songData.songTitle}
+          albumTitle={songData.albumTitle}
+          albumArt={songData.albumArt}
+          songSource={songData.songSource}
+        /> */}
+
+        {/* <div className="mr-2">
+            <SquarePlayer
+              artist={songData.artist}
+              songTitle={songData.songTitle}
+              albumTitle={songData.albumTitle}
+              albumArt={songData.albumArt}
+              songSource={songData.songSource}
+            
+            />
+        </div> */}
+
         <p id="paragraph" className="mb-4">
           <span className="">Lorem</span> ipsum dolor sit amet consectetur
           adipisicing elit. Atque, explicabo fugiat qui recusandae accusantium
@@ -119,18 +204,6 @@ export default function Template() {
           pariatur enim! Sed magni minima sequi nisi nulla optio non quod
           debitis ipsum.
         </p>
-
-        {/* Square Player if needed, need to import SongData object */}
-        {/* <div className="mr-2">
-          <SquarePlayer
-            artist={songData.artist}
-            songSource={songData.songSource}
-            albumArt={songData.albumArt}
-            albumTitle={songData.albumTitle}
-            songTitle={songData.songTitle}
-          />
-        </div> */}
-
         <p id="paragraph" className="mb-4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
           explicabo fugiat qui recusandae accusantium quia autem facilis

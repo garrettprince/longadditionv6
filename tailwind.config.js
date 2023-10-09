@@ -24,7 +24,8 @@ module.exports = {
         audio: "#31FF00",
         health: "#FFFF00",
         tech: "#FF7700",
-        cta: "#FF0072",
+        // cta: "#FF0072",
+        logs: "#F51D71",
       },
       rotate: {
         270: "270deg",
@@ -45,5 +46,8 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/typography"),
+    // Other plugins...
+  ],
 };
